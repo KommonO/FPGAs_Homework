@@ -12,22 +12,17 @@ module spi_mux_tb();
 
   //run through the tests
   initial begin
-    //mem_cap = 20
     sw0 = 1'b0;
     sw1 = 1'b0;
     mem_type = 8'h00000010;
     man_id   = 8'h00000015;
     mem_cap  = 8'h00000020;
+    repeat(2)@(negedge clk);
+    sw0 = 1;
     repeat(4)@(negedge clk);
-    //mem_type = 10
-    sw0 = 1'b1;
-    repeat(4)@(negedge clk);
-    //man_id = 15
-    sw0 = 1'b0;
-    sw1 = 1'b1;
-    repeat(4)@(negedge clk);
-    //FF = 8'hFF =
-    sw0 = 1'b1;
+    //get_rdid = 1'b1;
+    repeat(1)@(negedge clk);
+    //get_rdid=1'b0;
     repeat(200)@(negedge clk);
     $finish;
   end

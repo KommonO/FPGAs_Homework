@@ -96,3 +96,540 @@ exit -sim
 # Compile of oneshot.v was successful.
 # Compile of debounce.v was successful.
 # 14 compiles, 0 failed with no errors.
+# Compile of testbench.v was successful.
+# Compile of acdc_check.v was successful.
+# Compile of internal_logic.v was successful.
+# Compile of M25p16.v was successful.
+# Compile of m25p16_driver.v was successful.
+# Compile of memory_access.v was successful.
+# Compile of parameter.v was successful.
+# Compile of solution.v was successful.
+# Compile of solution_tb.v was successful.
+# Compile of spi_master.v was successful with warnings.
+# Compile of spi_master_tb.v was successful.
+# Compile of spi_wrapper.v was successful.
+# Compile of oneshot.v was successful.
+# Compile of debounce.v was successful.
+# Compile of spi_mux.v failed with 1 errors.
+# Compile of spi_mux_tb.v was successful.
+# 16 compiles, 1 failed with 1 error.
+# Compile of testbench.v was successful.
+# Compile of acdc_check.v was successful.
+# Compile of internal_logic.v was successful.
+# Compile of M25p16.v was successful.
+# Compile of m25p16_driver.v was successful.
+# Compile of memory_access.v was successful.
+# Compile of parameter.v was successful.
+# Compile of solution.v was successful.
+# Compile of solution_tb.v was successful.
+# Compile of spi_master.v was successful with warnings.
+# Compile of spi_master_tb.v was successful.
+# Compile of spi_wrapper.v was successful.
+# Compile of oneshot.v was successful.
+# Compile of debounce.v was successful.
+# Compile of spi_mux.v failed with 3 errors.
+# Compile of spi_mux_tb.v was successful.
+# 16 compiles, 1 failed with 3 errors.
+# Compile of testbench.v was successful.
+# Compile of acdc_check.v was successful.
+# Compile of internal_logic.v was successful.
+# Compile of M25p16.v was successful.
+# Compile of m25p16_driver.v was successful.
+# Compile of memory_access.v was successful.
+# Compile of parameter.v was successful.
+# Compile of solution.v was successful.
+# Compile of solution_tb.v was successful.
+# Compile of spi_master.v was successful with warnings.
+# Compile of spi_master_tb.v was successful.
+# Compile of spi_wrapper.v was successful.
+# Compile of oneshot.v was successful.
+# Compile of debounce.v was successful.
+# Compile of spi_mux.v failed with 1 errors.
+# Compile of spi_mux_tb.v was successful.
+# 16 compiles, 1 failed with 1 error.
+# Compile of testbench.v was successful.
+# Compile of acdc_check.v was successful.
+# Compile of internal_logic.v was successful.
+# Compile of M25p16.v was successful.
+# Compile of m25p16_driver.v was successful.
+# Compile of memory_access.v was successful.
+# Compile of parameter.v was successful.
+# Compile of solution.v was successful.
+# Compile of solution_tb.v was successful.
+# Compile of spi_master.v was successful with warnings.
+# Compile of spi_master_tb.v was successful.
+# Compile of spi_wrapper.v was successful.
+# Compile of oneshot.v was successful.
+# Compile of debounce.v was successful.
+# Compile of spi_mux.v failed with 1 errors.
+# Compile of spi_mux_tb.v was successful.
+# 16 compiles, 1 failed with 1 error.
+# Compile of testbench.v was successful.
+# Compile of acdc_check.v was successful.
+# Compile of internal_logic.v was successful.
+# Compile of M25p16.v was successful.
+# Compile of m25p16_driver.v was successful.
+# Compile of memory_access.v was successful.
+# Compile of parameter.v was successful.
+# Compile of solution.v was successful.
+# Compile of solution_tb.v was successful.
+# Compile of spi_master.v was successful with warnings.
+# Compile of spi_master_tb.v was successful.
+# Compile of spi_wrapper.v was successful.
+# Compile of oneshot.v was successful.
+# Compile of debounce.v was successful.
+# Compile of spi_mux.v failed with 3 errors.
+# Compile of spi_mux_tb.v was successful.
+# 16 compiles, 1 failed with 3 errors.
+# Compile of testbench.v was successful.
+# Compile of acdc_check.v was successful.
+# Compile of internal_logic.v was successful.
+# Compile of M25p16.v was successful.
+# Compile of m25p16_driver.v was successful.
+# Compile of memory_access.v was successful.
+# Compile of parameter.v was successful.
+# Compile of solution.v was successful.
+# Compile of solution_tb.v was successful.
+# Compile of spi_master.v was successful with warnings.
+# Compile of spi_master_tb.v was successful.
+# Compile of spi_wrapper.v was successful.
+# Compile of oneshot.v was successful.
+# Compile of debounce.v was successful.
+# Compile of spi_mux.v failed with 2 errors.
+# Compile of spi_mux_tb.v was successful.
+# 16 compiles, 1 failed with 2 errors.
+# Compile of testbench.v was successful.
+# Compile of acdc_check.v was successful.
+# Compile of internal_logic.v was successful.
+# Compile of M25p16.v was successful.
+# Compile of m25p16_driver.v was successful.
+# Compile of memory_access.v was successful.
+# Compile of parameter.v was successful.
+# Compile of solution.v was successful.
+# Compile of solution_tb.v was successful.
+# Compile of spi_master.v was successful with warnings.
+# Compile of spi_master_tb.v was successful.
+# Compile of spi_wrapper.v was successful.
+# Compile of oneshot.v was successful.
+# Compile of debounce.v was successful.
+# Compile of spi_mux.v was successful.
+# Compile of spi_mux_tb.v was successful.
+# 16 compiles, 0 failed with no errors.
+# Compile of testbench.v was successful.
+# Compile of acdc_check.v was successful.
+# Compile of internal_logic.v was successful.
+# Compile of M25p16.v was successful.
+# Compile of m25p16_driver.v was successful.
+# Compile of memory_access.v was successful.
+# Compile of parameter.v was successful.
+# Compile of solution.v was successful.
+# Compile of solution_tb.v was successful.
+# Compile of spi_master.v was successful with warnings.
+# Compile of spi_master_tb.v was successful.
+# Compile of spi_wrapper.v was successful.
+# Compile of oneshot.v was successful.
+# Compile of debounce.v was successful.
+# Compile of spi_mux.v was successful.
+# Compile of spi_mux_tb.v was successful.
+# 16 compiles, 0 failed with no errors.
+# Compile of testbench.v was successful.
+# Compile of acdc_check.v was successful.
+# Compile of internal_logic.v was successful.
+# Compile of M25p16.v was successful.
+# Compile of m25p16_driver.v was successful.
+# Compile of memory_access.v was successful.
+# Compile of parameter.v was successful.
+# Compile of solution.v was successful.
+# Compile of solution_tb.v was successful.
+# Compile of spi_master.v was successful with warnings.
+# Compile of spi_master_tb.v was successful.
+# Compile of spi_wrapper.v was successful.
+# Compile of oneshot.v was successful.
+# Compile of debounce.v was successful.
+# Compile of spi_mux.v was successful.
+# Compile of spi_mux_tb.v was successful with warnings.
+# 16 compiles, 0 failed with no errors.
+vsim -gui work.spi_mux_tb
+# vsim 
+# Start time: 23:08:07 on Mar 08,2016
+# Loading work.spi_mux_tb
+# Loading work.spi_mux
+add wave -position end  sim:/spi_mux_tb/mem_type
+add wave -position end  sim:/spi_mux_tb/man_id
+add wave -position end  sim:/spi_mux_tb/mem_cap
+add wave -position end  sim:/spi_mux_tb/sw0
+add wave -position end  sim:/spi_mux_tb/sw1
+add wave -position end  sim:/spi_mux_tb/clk
+add wave -position end  sim:/spi_mux_tb/LED
+add wave -position end  sim:/spi_mux_tb/spi_mux/switches
+run -all
+# ** Note: $finish    : C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_5/spi_mux_tb.v(27)
+#    Time: 20600 ns  Iteration: 1  Instance: /spi_mux_tb
+# 1
+# Break in Module spi_mux_tb at C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_5/spi_mux_tb.v line 27
+# Compile of testbench.v was successful.
+# Compile of acdc_check.v was successful.
+# Compile of internal_logic.v was successful.
+# Compile of M25p16.v was successful.
+# Compile of m25p16_driver.v was successful.
+# Compile of memory_access.v was successful.
+# Compile of parameter.v was successful.
+# Compile of solution.v was successful.
+# Compile of solution_tb.v was successful.
+# Compile of spi_master.v was successful with warnings.
+# Compile of spi_master_tb.v was successful.
+# Compile of spi_wrapper.v was successful.
+# Compile of oneshot.v was successful.
+# Compile of debounce.v was successful.
+# Compile of spi_mux.v was successful.
+# Compile of spi_mux_tb.v was successful with warnings.
+# 16 compiles, 0 failed with no errors.
+restart
+# Loading work.spi_mux_tb
+# Loading work.spi_mux
+run -all
+# ** Note: $finish    : C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_5/spi_mux_tb.v(32)
+#    Time: 21100 ns  Iteration: 1  Instance: /spi_mux_tb
+# 1
+# Break in Module spi_mux_tb at C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_5/spi_mux_tb.v line 32
+# Compile of testbench.v was successful.
+# Compile of acdc_check.v was successful.
+# Compile of internal_logic.v was successful.
+# Compile of M25p16.v was successful.
+# Compile of m25p16_driver.v was successful.
+# Compile of memory_access.v was successful.
+# Compile of parameter.v was successful.
+# Compile of solution.v was successful.
+# Compile of solution_tb.v was successful.
+# Compile of spi_master.v was successful with warnings.
+# Compile of spi_master_tb.v was successful.
+# Compile of spi_wrapper.v was successful.
+# Compile of oneshot.v was successful.
+# Compile of debounce.v was successful.
+# Compile of spi_mux.v was successful.
+# Compile of spi_mux_tb.v was successful with warnings.
+# 16 compiles, 0 failed with no errors.
+restart
+# Loading work.spi_mux_tb
+# Loading work.spi_mux
+run -all
+# ** Note: $finish    : C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_5/spi_mux_tb.v(32)
+#    Time: 21100 ns  Iteration: 1  Instance: /spi_mux_tb
+# 1
+# Break in Module spi_mux_tb at C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_5/spi_mux_tb.v line 32
+exit -sim
+# Compile of testbench.v was successful.
+# Compile of acdc_check.v was successful.
+# Compile of internal_logic.v was successful.
+# Compile of M25p16.v was successful.
+# Compile of m25p16_driver.v was successful.
+# Compile of memory_access.v was successful.
+# Compile of parameter.v was successful.
+# Compile of solution.v was successful.
+# Compile of solution_tb.v was successful.
+# Compile of spi_master.v was successful with warnings.
+# Compile of spi_master_tb.v was successful.
+# Compile of spi_wrapper.v was successful.
+# Compile of oneshot.v failed with 1 errors.
+# Compile of debounce.v was successful.
+# Compile of spi_mux.v was successful.
+# Compile of spi_mux_tb.v was successful with warnings.
+# 16 compiles, 1 failed with 1 error.
+# Compile of testbench.v was successful.
+# Compile of acdc_check.v was successful.
+# Compile of internal_logic.v was successful.
+# Compile of M25p16.v was successful.
+# Compile of m25p16_driver.v was successful.
+# Compile of memory_access.v was successful.
+# Compile of parameter.v was successful.
+# Compile of solution.v was successful.
+# Compile of solution_tb.v was successful.
+# Compile of spi_master.v was successful with warnings.
+# Compile of spi_master_tb.v was successful.
+# Compile of spi_wrapper.v was successful.
+# Compile of oneshot.v failed with 1 errors.
+# Compile of debounce.v was successful.
+# Compile of spi_mux.v was successful.
+# Compile of spi_mux_tb.v was successful with warnings.
+# 16 compiles, 1 failed with 1 error.
+# Compile of testbench.v was successful.
+# Compile of acdc_check.v was successful.
+# Compile of internal_logic.v was successful.
+# Compile of M25p16.v was successful.
+# Compile of m25p16_driver.v was successful.
+# Compile of memory_access.v was successful.
+# Compile of parameter.v was successful.
+# Compile of solution.v was successful.
+# Compile of solution_tb.v was successful.
+# Compile of spi_master.v was successful with warnings.
+# Compile of spi_master_tb.v was successful.
+# Compile of spi_wrapper.v was successful.
+# Compile of oneshot.v failed with 1 errors.
+# Compile of debounce.v was successful.
+# Compile of spi_mux.v was successful.
+# Compile of spi_mux_tb.v was successful with warnings.
+# 16 compiles, 1 failed with 1 error.
+# Compile of testbench.v was successful.
+# Compile of acdc_check.v was successful.
+# Compile of internal_logic.v was successful.
+# Compile of M25p16.v was successful.
+# Compile of m25p16_driver.v was successful.
+# Compile of memory_access.v was successful.
+# Compile of parameter.v was successful.
+# Compile of solution.v was successful.
+# Compile of solution_tb.v was successful.
+# Compile of spi_master.v was successful with warnings.
+# Compile of spi_master_tb.v was successful.
+# Compile of spi_wrapper.v was successful.
+# Compile of oneshot.v failed with 1 errors.
+# Compile of debounce.v was successful.
+# Compile of spi_mux.v was successful.
+# Compile of spi_mux_tb.v was successful with warnings.
+# Compile of debounce_tb.v was successful.
+# 17 compiles, 1 failed with 1 error.
+vsim -gui work.debounce_tb
+# vsim 
+# Start time: 00:16:56 on Mar 09,2016
+# Loading work.debounce_tb
+# Loading work.debounce
+# ** Error: (vsim-3063) C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_5/debounce_tb.v(10): Port 'rst' not found in the connected module (2nd connection).
+#    Time: 0 ps  Iteration: 0  Instance: /debounce_tb/debounce File: C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_5/debounce.v
+# Error loading design
+# Compile of testbench.v was successful.
+# Compile of acdc_check.v was successful.
+# Compile of internal_logic.v was successful.
+# Compile of M25p16.v was successful.
+# Compile of m25p16_driver.v was successful.
+# Compile of memory_access.v was successful.
+# Compile of parameter.v was successful.
+# Compile of solution.v was successful.
+# Compile of solution_tb.v was successful.
+# Compile of spi_master.v was successful with warnings.
+# Compile of spi_master_tb.v was successful.
+# Compile of spi_wrapper.v was successful.
+# Compile of oneshot.v failed with 1 errors.
+# Compile of debounce.v was successful.
+# Compile of spi_mux.v was successful.
+# Compile of spi_mux_tb.v was successful with warnings.
+# Compile of debounce_tb.v was successful.
+# 17 compiles, 1 failed with 1 error.
+vsim -gui work.debounce_tb
+# vsim 
+# Start time: 00:17:39 on Mar 09,2016
+# Loading work.debounce_tb
+# Loading work.debounce
+add wave -position end  sim:/debounce_tb/clk
+add wave -position end  sim:/debounce_tb/get_rdid
+add wave -position end  sim:/debounce_tb/get_rdid_debounce
+run -all
+# Break key hit
+# Compile of testbench.v was successful.
+# Compile of acdc_check.v was successful.
+# Compile of internal_logic.v was successful.
+# Compile of M25p16.v was successful.
+# Compile of m25p16_driver.v was successful.
+# Compile of memory_access.v was successful.
+# Compile of parameter.v was successful.
+# Compile of solution.v was successful.
+# Compile of solution_tb.v was successful.
+# Compile of spi_master.v was successful with warnings.
+# Compile of spi_master_tb.v was successful.
+# Compile of spi_wrapper.v was successful.
+# Compile of oneshot.v failed with 1 errors.
+# Compile of debounce.v was successful.
+# Compile of spi_mux.v was successful.
+# Compile of spi_mux_tb.v was successful with warnings.
+# Compile of debounce_tb.v failed with 1 errors.
+# 17 compiles, 2 failed with 2 errors.
+# Compile of testbench.v was successful.
+# Compile of acdc_check.v was successful.
+# Compile of internal_logic.v was successful.
+# Compile of M25p16.v was successful.
+# Compile of m25p16_driver.v was successful.
+# Compile of memory_access.v was successful.
+# Compile of parameter.v was successful.
+# Compile of solution.v was successful.
+# Compile of solution_tb.v was successful.
+# Compile of spi_master.v was successful with warnings.
+# Compile of spi_master_tb.v was successful.
+# Compile of spi_wrapper.v was successful.
+# Compile of oneshot.v failed with 1 errors.
+# Compile of debounce.v was successful.
+# Compile of spi_mux.v was successful.
+# Compile of spi_mux_tb.v was successful with warnings.
+# Compile of debounce_tb.v was successful.
+# 17 compiles, 1 failed with 1 error.
+restart
+# Loading work.debounce_tb
+# Loading work.debounce
+restart
+exit -sim
+# Compile of testbench.v was successful.
+# Compile of acdc_check.v was successful.
+# Compile of internal_logic.v was successful.
+# Compile of M25p16.v was successful.
+# Compile of m25p16_driver.v was successful.
+# Compile of memory_access.v was successful.
+# Compile of parameter.v was successful.
+# Compile of solution.v was successful.
+# Compile of solution_tb.v was successful.
+# Compile of spi_master.v was successful with warnings.
+# Compile of spi_master_tb.v was successful.
+# Compile of spi_wrapper.v was successful.
+# Compile of oneshot.v failed with 1 errors.
+# Compile of debounce.v was successful.
+# Compile of spi_mux.v was successful.
+# Compile of spi_mux_tb.v was successful with warnings.
+# Compile of debounce_tb.v was successful.
+# 17 compiles, 1 failed with 1 error.
+vsim -gui work.debounce_tb
+# vsim 
+# Start time: 00:23:20 on Mar 09,2016
+# Loading work.debounce_tb
+# Loading work.debounce
+add wave -position end  sim:/debounce_tb/debounce/clk
+add wave -position end  sim:/debounce_tb/debounce/get_rdid
+add wave -position end  sim:/debounce_tb/debounce/get_rdid_debounce
+add wave -position end  sim:/debounce_tb/debounce/get_rdid_sync_0
+add wave -position end  sim:/debounce_tb/debounce/get_rdid_sync_1
+add wave -position end  sim:/debounce_tb/debounce/get_rdid_cnt
+run -all
+# ** Note: $finish    : C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_5/debounce_tb.v(25)
+#    Time: 82800 ns  Iteration: 0  Instance: /debounce_tb
+# 1
+# Break in Module debounce_tb at C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_5/debounce_tb.v line 25
+# Compile of testbench.v was successful.
+# Compile of acdc_check.v was successful.
+# Compile of internal_logic.v was successful.
+# Compile of M25p16.v was successful.
+# Compile of m25p16_driver.v was successful.
+# Compile of memory_access.v was successful.
+# Compile of parameter.v was successful.
+# Compile of solution.v was successful.
+# Compile of solution_tb.v was successful.
+# Compile of spi_master.v was successful with warnings.
+# Compile of spi_master_tb.v was successful.
+# Compile of spi_wrapper.v was successful.
+# Compile of oneshot.v failed with 1 errors.
+# Compile of debounce.v was successful.
+# Compile of spi_mux.v was successful.
+# Compile of spi_mux_tb.v was successful with warnings.
+# Compile of debounce_tb.v was successful.
+# 17 compiles, 1 failed with 1 error.
+restart
+# Loading work.debounce_tb
+# Loading work.debounce
+run -all
+# ** Note: $finish    : C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_5/debounce_tb.v(25)
+#    Time: 82800 ns  Iteration: 0  Instance: /debounce_tb
+# 1
+# Break in Module debounce_tb at C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_5/debounce_tb.v line 25
+add wave -position end  sim:/debounce_tb/clk
+add wave -position end  sim:/debounce_tb/get_rdid
+add wave -position end  sim:/debounce_tb/get_rdid_debounce
+restart
+run -all
+# ** Note: $finish    : C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_5/debounce_tb.v(25)
+#    Time: 82800 ns  Iteration: 0  Instance: /debounce_tb
+# 1
+# Break in Module debounce_tb at C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_5/debounce_tb.v line 25
+# Compile of testbench.v was successful.
+# Compile of acdc_check.v was successful.
+# Compile of internal_logic.v was successful.
+# Compile of M25p16.v was successful.
+# Compile of m25p16_driver.v was successful.
+# Compile of memory_access.v was successful.
+# Compile of parameter.v was successful.
+# Compile of solution.v was successful.
+# Compile of solution_tb.v was successful.
+# Compile of spi_master.v was successful with warnings.
+# Compile of spi_master_tb.v was successful.
+# Compile of spi_wrapper.v was successful.
+# Compile of oneshot.v failed with 1 errors.
+# Compile of debounce.v failed with 3 errors.
+# Compile of spi_mux.v was successful.
+# Compile of spi_mux_tb.v was successful with warnings.
+# Compile of debounce_tb.v failed with 2 errors.
+# 17 compiles, 3 failed with 6 errors.
+# Compile of testbench.v was successful.
+# Compile of acdc_check.v was successful.
+# Compile of internal_logic.v was successful.
+# Compile of M25p16.v was successful.
+# Compile of m25p16_driver.v was successful.
+# Compile of memory_access.v was successful.
+# Compile of parameter.v was successful.
+# Compile of solution.v was successful.
+# Compile of solution_tb.v was successful.
+# Compile of spi_master.v was successful with warnings.
+# Compile of spi_master_tb.v was successful.
+# Compile of spi_wrapper.v was successful.
+# Compile of oneshot.v failed with 1 errors.
+# Compile of debounce.v was successful.
+# Compile of spi_mux.v was successful.
+# Compile of spi_mux_tb.v was successful with warnings.
+# Compile of debounce_tb.v failed with 2 errors.
+# 17 compiles, 2 failed with 3 errors.
+# Compile of testbench.v was successful.
+# Compile of acdc_check.v was successful.
+# Compile of internal_logic.v was successful.
+# Compile of M25p16.v was successful.
+# Compile of m25p16_driver.v was successful.
+# Compile of memory_access.v was successful.
+# Compile of parameter.v was successful.
+# Compile of solution.v was successful.
+# Compile of solution_tb.v was successful.
+# Compile of spi_master.v was successful with warnings.
+# Compile of spi_master_tb.v was successful.
+# Compile of spi_wrapper.v was successful.
+# Compile of oneshot.v failed with 1 errors.
+# Compile of debounce.v was successful.
+# Compile of spi_mux.v was successful.
+# Compile of spi_mux_tb.v was successful with warnings.
+# Compile of debounce_tb.v was successful.
+# 17 compiles, 1 failed with 1 error.
+restart
+# Loading work.debounce_tb
+# Loading work.debounce
+# Warning in wave window restart: (vish-4014) No objects found matching '/debounce_tb/debounce/get_rdid_sync_0'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/debounce_tb/debounce/get_rdid_sync_1'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/debounce_tb/debounce/get_rdid_cnt'. 
+run -all
+# ** Note: $finish    : C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_5/debounce_tb.v(27)
+#    Time: 82800 ns  Iteration: 0  Instance: /debounce_tb
+# 1
+# Break in Module debounce_tb at C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_5/debounce_tb.v line 27
+run
+run
+run
+run
+run -all
+# ** Note: $finish    : C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_5/debounce_tb.v(27)
+#    Time: 165600 ns  Iteration: 0  Instance: /debounce_tb
+# 1
+# Break in Module debounce_tb at C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_5/debounce_tb.v line 27
+# Compile of testbench.v was successful.
+# Compile of acdc_check.v was successful.
+# Compile of internal_logic.v was successful.
+# Compile of M25p16.v was successful.
+# Compile of m25p16_driver.v was successful.
+# Compile of memory_access.v was successful.
+# Compile of parameter.v was successful.
+# Compile of solution.v was successful.
+# Compile of solution_tb.v was successful.
+# Compile of spi_master.v was successful with warnings.
+# Compile of spi_master_tb.v was successful.
+# Compile of spi_wrapper.v was successful.
+# Compile of oneshot.v failed with 1 errors.
+# Compile of debounce.v was successful.
+# Compile of spi_mux.v was successful.
+# Compile of spi_mux_tb.v was successful with warnings.
+# Compile of debounce_tb.v was successful.
+# 17 compiles, 1 failed with 1 error.
+restart
+# Loading work.debounce_tb
+# Loading work.debounce
+run -all
+# ** Note: $finish    : C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_5/debounce_tb.v(27)
+#    Time: 82800 ns  Iteration: 0  Instance: /debounce_tb
+# End time: 00:51:33 on Mar 09,2016, Elapsed time: 0:28:13
+# Errors: 0, Warnings: 0

@@ -1,4 +1,17 @@
-{C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_5/internal_logic.v} {1 {vlog -work work -stats=none {C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_5/internal_logic.v}
+{C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_5/spi_mux_tb.v} {2 {vlog -work work -stats=none {C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_5/spi_mux_tb.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module spi_mux_tb
+** Warning: C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_5/spi_mux_tb.v(18): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+** Warning: C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_5/spi_mux_tb.v(19): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+** Warning: C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_5/spi_mux_tb.v(20): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+
+Top level modules:
+	spi_mux_tb
+
+} {} {}} {C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_5/internal_logic.v} {1 {vlog -work work -stats=none {C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_5/internal_logic.v}
 Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
 -- Compiling module internal_logic
 
@@ -26,6 +39,13 @@ Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 
 Top level modules:
 	m25p16
 
+} {} {}} {C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_5/spi_wrapper.v} {1 {vlog -work work -stats=none {C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_5/spi_wrapper.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module spi_wrapper
+
+Top level modules:
+	spi_wrapper
+
 } {} {}} {C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_5/spi_master_tb.v} {1 {vlog -work work -stats=none {C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_5/spi_master_tb.v}
 Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
 -- Compiling module spi_master_tb
@@ -33,22 +53,21 @@ Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 
 Top level modules:
 	spi_master_tb
 
-} {} {}} {C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_5/debounce.v} {1 {vlog -work work -stats=none {C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_5/debounce.v}
-Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
--- Compiling module debounce
-
-Top level modules:
-	debounce
-
-} {} {}} {C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_5/oneshot.v} {1 {vlog -work work -stats=none {C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_5/oneshot.v}
+} {} {}} {C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_5/oneshot.v} {0 {vlog -work work -stats=none {C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_5/oneshot.v}
 Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
 -- Compiling module oneshot
+** Error: C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_5/oneshot.v(8): (vlog-2730) Undefined variable: 'get_rdid_debounce_q'.
+
+
+} {4.0 5.0} {}} {C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_5/parameter.v} {1 {vlog -work work -stats=none {C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_5/parameter.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+
+} {} {}} {C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_5/spi_mux.v} {1 {vlog -work work -stats=none {C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_5/spi_mux.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module spi_mux
 
 Top level modules:
-	oneshot
-
-} {} {}} {C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_5/parameter.v} {1 {vlog -work work -stats=none {C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_5/parameter.v}
-Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+	spi_mux
 
 } {} {}} {C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_5/solution.v} {1 {vlog -work work -stats=none {C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_5/solution.v}
 Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
