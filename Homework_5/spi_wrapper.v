@@ -10,11 +10,12 @@ module spi_wrapper(input BTN1, BTN0, CCLK, output reg [7:0] LED);
 spi_master spi_master();
 
 //instantiate clock divider
+//clock divider defined in Xilinx
 
 
 //instantiate debouncer
-debounce debounce();
+debounce debounce(.clk(clk), .rst(rst), .get_rdid(get_rdid), .get_rdid_debounce(.get_rdid_debounce));
 
 //instantiate oneshot
-oneshot oneshot();
+oneshot oneshot(.get_rdid_debounce(get_rdid_debounce), .rst(rst), .clk(clk), .get_rdid_oneshot(get_rdid_oneshot));
 endmodule 
