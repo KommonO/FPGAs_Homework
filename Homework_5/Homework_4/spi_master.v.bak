@@ -1,0 +1,153 @@
+`default_nettype none
+//Module created for Homework 4
+module spi_master(input wire clk, rst, spimiso, get_rdid, output reg spisck, chip_select, output wire spimosi);
+
+
+  //local registers and wires
+  reg [2:0] current_state, next_state;
+  reg [2:0] send_count;  //send for count
+  reg [4:0] get_count;  //get for count
+  reg enable_send, enable_get; //enable for get and send
+  reg assert_cs;
+  reg [23:0] read_data;  //24-bit read_data register
+   
+  wire [7:0] mem_type, mem_cap, man_id;  //8 bit registers
+  //Params for each state
+  parameter 
+    IDLE = 3'b000,  //IDLE State
+    ASSERT_CS = 3'b001,  //ASSERT_CS state
+    SEND_INSTRUCTION = 3'b010,  //SEND_INSTRUCTION State
+    GET_DATA = 3'b011,  //GET_DATA State
+    DEASSERT_CS = 3'b100,  //DEASSERT_CS State
+    RDID_CODE = 8'h9F,  //Given in lecture 4 as RDID code
+    GET_COUNT_MAX = 5'h18,  //24 bit 
+    SEND_COUNT_MAX = 3'h7;  
+
+
+    //assign statements for mem_type, mem_cap, and man_id
+    assign mem_type = read_data[15:8];
+    assign mem_cap = read_data[8:0];
+    assign man_id = read_data[23:16];
+
+  //Always block for FSM
+  always @(current_state)begin
+    //Initialize values that need initializing
+    //next_state = IDLE;
+    enable_send = 1'b0;
+
+    case(current_state)
+      IDLE: begin 
+        //rest goes back to here
+        //get_rdid stays in this state
+       if(get_rdid)
+        next_state = ASSERT_CS;
+      end  //end IDLE case 
+      
+      ASSERT_CS: begin
+        assert_cs = 1'b1;  //Assert chip select
+        next_state = SEND_INSTRUCTION;  //next state is equal to SEND_INSTRUCTION
+      end  //end ASSERT_CS
+      
+      SEND_INSTRUCTION: begin
+        enable_send = 1'b1;  //will send the command to send the instruction
+        next_state = GET_DATA; //Next State will be GET_DATA state
+      end  //end SEND_INSTRUCTION
+      
+      GET_DATA: begin
+        enable_get = 1'b1;
+        assert_cs = 1'b1;
+        //logic done inside of State logic
+        if(get_count ==0)
+          next_state = DEASSERT_CS;  //Next state will be DEASSERT_CS state
+        else
+          next_state = GET_DATA;
+      end
+      DEASSERT_CS: begin
+        next_state = IDLE;
+      end //End DEASSERT_CS 
+    endcase
+  end
+
+  //always block for the chip register correction
+  always @(posedge clk or posedge rst) begin
+    if(rst)
+     chip_select <= 1'b0;
+    else if(assert_cs)
+      chip_select <= 1'b0;  //equals 0 due to the data sheet(high is deselected)
+    else 
+      chip_select <= 1'b1;
+  end //end always block for chip register
+  
+  //always block for the count of the spisck sending
+  always @(posedge clk or posedge rst) begin
+    if(rst)
+      send_count <= SEND_COUNT_MAX;    //Clarify this
+    else if(get_rdid)
+      send_count <= SEND_COUNT_MAX;    //reset when commanded to get ID
+    else if(enable_send && spisck)
+      send_count <= send_count - 1'b1; 
+  end  // end always block for count of the spisck sending
+
+  //always block for the count the spisck getting
+  always @(posedge clk or posedge rst) begin
+    if(rst)
+      get_count <= GET_COUNT_MAX;
+    else if (get_rdid)
+      get_count <= GET_COUNT_MAX;
+    else if (enable_get && spisck)
+      get_count <= get_count - 1'b1; 
+  end  //end always block for count for spisck getting
+
+  // always block for the clock register correction
+  always @(posedge spisck or posedge rst) begin
+    if(rst)
+      spisck <= 0;  //Nonblocking in order to imitate clock movemeents
+    else if (get_rdid)
+     spisck <= 1'b0;
+    else if (enable_send || enable_get)
+      spisck <= ~spisck;
+   end
+  
+   //always block for getting data
+  always @(posedge spisck or posedge rst) begin
+   if(rst)
+     read_data <= 24'b0;
+   else
+     read_data[get_count] <= spimiso;
+  end
+  //always block to assign state
+  always  @(posedge clk or negedge rst) begin
+    if(rst)
+      current_state <= IDLE;
+    else
+      current_state <= next_state;
+  end//end always block for state
+  
+ assign spimosi = RDID_CODE[send_count];
+
+//synopsys_translate off
+//ASCII BLOCKS
+  reg[95:0] ASCII_current_state;
+  reg[95:0] ASCII_next_state;
+
+  always @(current_state) begin
+    case(current_state)
+      IDLE: ASCII_current_state = "IDLE";
+      ASSERT_CS: ASCII_current_state = "ASSERT_CS";
+      SEND_INSTRUCTION: ASCII_current_state = "SEND_INSTRUCTION";
+      GET_DATA: ASCII_current_state = "GET_DATA";
+      DEASSERT_CS: ASCII_current_state = "DEASSERT_CS";
+    endcase
+  end
+  always @(next_state) begin
+    case(next_state)
+      IDLE: ASCII_next_state = "IDLE";
+      ASSERT_CS: ASCII_next_state = "ASSERT_CS";
+      SEND_INSTRUCTION: ASCII_next_state = "SEND_INSTRUCTION";
+      GET_DATA: ASCII_next_state = "GET_DATA";
+      DEASSERT_CS: ASCII_next_state = "DEASSERT_CS";
+    endcase
+  end
+
+//synopsys_translate on
+endmodule 
