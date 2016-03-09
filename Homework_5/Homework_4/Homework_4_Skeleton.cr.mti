@@ -1,0 +1,83 @@
+{C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_5/Homework_4/spi_master.v} {0 {vlog -work work -stats=none {C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_5/Homework_4/spi_master.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module spi_master
+** Error: C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_5/Homework_4/spi_master.v(34): (vlog-2730) Undefined variable: 'get_rdid'.
+
+** Error: C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_5/Homework_4/spi_master.v(49): (vlog-2730) Undefined variable: 'enable_send'.
+
+** Error: C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_5/Homework_4/spi_master.v(54): (vlog-2730) Undefined variable: 'data_received'.
+
+** Error: (vlog-13069) C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_5/Homework_4/spi_master.v(55): near "next_state": syntax error, unexpected IDENTIFIER, expecting ';'.
+
+** Error: (vlog-13069) C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_5/Homework_4/spi_master.v(61): near "end": syntax error, unexpected end.
+
+** Error: C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_5/Homework_4/spi_master.v(79): (vlog-2730) Undefined variable: 'ASCII_current_state'.
+
+
+} {4.0 5.0 6.0 7.0 8.0 9.0 10.0 11.0 12.0 13.0 14.0 15.0} {}} {C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_5/Homework_4/M25p16.v} {1 {vlog -work work -stats=none {C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_5/Homework_4/M25p16.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module m25p16
+
+Top level modules:
+	m25p16
+
+} {} {}} {C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_5/Homework_4/spi_master_tb.v} {1 {vlog -work work -stats=none {C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_5/Homework_4/spi_master_tb.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module spi_master_tb
+
+Top level modules:
+	spi_master_tb
+
+} {} {}} {C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_5/Homework_4/acdc_check.v} {1 {vlog -work work -stats=none {C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_5/Homework_4/acdc_check.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module acdc_check
+
+Top level modules:
+	acdc_check
+
+} {} {}} {C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_5/Homework_4/testbench.v} {1 {vlog -work work -stats=none {C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_5/Homework_4/testbench.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module testbench
+
+Top level modules:
+	testbench
+
+} {} {}} {C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_5/Homework_4/solution.v} {1 {vlog -work work -stats=none {C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_5/Homework_4/solution.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module rdid
+
+Top level modules:
+	rdid
+
+} {} {}} {C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_5/Homework_4/parameter.v} {1 {vlog -work work -stats=none {C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_5/Homework_4/parameter.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+
+} {} {}} {C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_5/Homework_4/solution_tb.v} {1 {vlog -work work -stats=none {C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_5/Homework_4/solution_tb.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module rdid_tb
+
+Top level modules:
+	rdid_tb
+
+} {} {}} {C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_5/Homework_4/memory_access.v} {1 {vlog -work work -stats=none {C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_5/Homework_4/memory_access.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module memory_access
+
+Top level modules:
+	memory_access
+
+} {} {}} {C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_5/Homework_4/m25p16_driver.v} {1 {vlog -work work -stats=none {C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_5/Homework_4/m25p16_driver.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module m25p16_driver
+
+Top level modules:
+	m25p16_driver
+
+} {} {}} {C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_5/Homework_4/internal_logic.v} {1 {vlog -work work -stats=none {C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_5/Homework_4/internal_logic.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module internal_logic
+
+Top level modules:
+	internal_logic
+
+} {} {}}

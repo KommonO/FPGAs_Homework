@@ -1,0 +1,15 @@
+//Wrapper module to tie in al necessary modules
+module spi_wrapper();
+
+//instantiate spi_master
+
+
+//instantiate clock divider
+
+
+//instantiate debouncer
+
+
+//instantiate oneshot
+
+endmodule 

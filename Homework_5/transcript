@@ -1,0 +1,98 @@
+# Reading C:/Modeltech_pe_edu_10.4a/tcl/vsim/pref.tcl
+# OpenFile {C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_5/Homework_5.mpf}
+# Loading project Homework_5
+# Compile of testbench.v was successful.
+# Compile of acdc_check.v was successful.
+# Compile of internal_logic.v was successful.
+# Compile of M25p16.v was successful.
+# Compile of m25p16_driver.v was successful.
+# Compile of memory_access.v was successful.
+# Compile of parameter.v was successful.
+# Compile of solution.v was successful.
+# Compile of solution_tb.v was successful.
+# Compile of spi_master.v was successful with warnings.
+# Compile of spi_master_tb.v was successful.
+# 11 compiles, 0 failed with no errors.
+vsim -gui work.spi_master_tb
+# //  ModelSim PE Student Edition 10.4a Apr  7 2015 
+# //
+# //  Copyright 1991-2015 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# // NOT FOR CORPORATE OR PRODUCTION USE.
+# // THE ModelSim PE Student Edition IS NOT A SUPPORTED PRODUCT.
+# // FOR HIGHER EDUCATION PURPOSES ONLY
+# //
+# vsim -gui C:\Users\Kommon\Desktop\Spring 2016\FPGAs\FPGAs_Homework\Homework_5\Homework_5.mpf 
+# Start time: 21:08:00 on Mar 08,2016
+# Loading work.spi_master_tb
+# Loading work.spi_master
+# Loading work.m25p16
+# Loading work.memory_access
+# Loading work.acdc_check
+# Loading work.internal_logic
+add wave -position end  sim:/spi_master_tb/get_rdid
+add wave -position end  sim:/spi_master_tb/clk
+add wave -position end  sim:/spi_master_tb/rst
+add wave -position end  sim:/spi_master_tb/spisck
+add wave -position end  sim:/spi_master_tb/spimiso
+add wave -position end  sim:/spi_master_tb/spimosi
+add wave -position end  sim:/spi_master_tb/chip_select
+add wave -position end  sim:/spi_master_tb/spi_master/send_count
+add wave -position end  sim:/spi_master_tb/spi_master/get_count
+add wave -position end  sim:/spi_master_tb/spi_master/assert_cs
+add wave -position end  sim:/spi_master_tb/spi_master/man_id
+add wave -position end  sim:/spi_master_tb/spi_master/mem_type
+add wave -position end  sim:/spi_master_tb/spi_master/mem_cap
+add wave -position end  sim:/spi_master_tb/spi_master/read_data
+add wave -position end  sim:/spi_master_tb/spi_master/ASCII_current_state
+add wave -position end  sim:/spi_master_tb/spi_master/ASCII_next_state
+run -all
+#                    0 : NOTE : Load memory with Initial content
+# ** Warning: (vsim-7) Failed to open readmem file "initM25P16.txt" in read mode.
+# 
+# No such file or directory. (errno = ENOENT)    : C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_5/memory_access.v(58)
+#    Time: 0 ns  Iteration: 0  Instance: /spi_master_tb/m25p16/mem_access
+#                    0 : NOTE : Initial Load End
+# ** Note: $finish    : C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_5/spi_master_tb.v(45)
+#    Time: 20600 ns  Iteration: 1  Instance: /spi_master_tb
+# 1
+# Break in Module spi_master_tb at C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_5/spi_master_tb.v line 45
+exit -sim
+# Compile of testbench.v was successful.
+# Compile of acdc_check.v was successful.
+# Compile of internal_logic.v was successful.
+# Compile of M25p16.v was successful.
+# Compile of m25p16_driver.v was successful.
+# Compile of memory_access.v was successful.
+# Compile of parameter.v was successful.
+# Compile of solution.v was successful.
+# Compile of solution_tb.v was successful.
+# Compile of spi_master.v was successful with warnings.
+# Compile of spi_master_tb.v was successful.
+# Compile of spi_wrapper.v was successful.
+# 12 compiles, 0 failed with no errors.
+# Compile of testbench.v was successful.
+# Compile of acdc_check.v was successful.
+# Compile of internal_logic.v was successful.
+# Compile of M25p16.v was successful.
+# Compile of m25p16_driver.v was successful.
+# Compile of memory_access.v was successful.
+# Compile of parameter.v was successful.
+# Compile of solution.v was successful.
+# Compile of solution_tb.v was successful.
+# Compile of spi_master.v was successful with warnings.
+# Compile of spi_master_tb.v was successful.
+# Compile of spi_wrapper.v was successful.
+# Compile of oneshot.v was successful.
+# Compile of debounce.v was successful.
+# 14 compiles, 0 failed with no errors.
