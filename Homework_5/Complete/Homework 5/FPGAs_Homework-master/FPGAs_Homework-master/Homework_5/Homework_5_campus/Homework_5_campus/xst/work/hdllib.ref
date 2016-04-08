@@ -1,0 +1,8 @@
+MO spi_mux NULL ../spi_mux.v vlg5D/spi__mux.bin 1457574306
+MO spi_master NULL ../spi_master.v vlg63/spi__master.bin 1457574306
+MO spi_wrapper NULL ../spi_wrapper.v vlg2C/spi__wrapper.bin 1457574306
+MO icon NULL ipcore_dir/icon.v vlg09/icon.bin 1457574306
+MO clock_divider NULL clock_divider.v vlg1E/clock__divider.bin 1457574306
+MO debounce NULL ../debounce.v vlg1D/debounce.bin 1457574306
+MO ila NULL ipcore_dir/ila.v vlg3E/ila.bin 1457574306
+MO oneshot NULL ../oneshot.v vlg30/oneshot.bin 1457574306

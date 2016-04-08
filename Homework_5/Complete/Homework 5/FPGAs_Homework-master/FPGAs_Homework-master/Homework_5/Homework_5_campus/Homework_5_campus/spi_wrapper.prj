@@ -1,0 +1,8 @@
+verilog work "../spi_mux.v"
+verilog work "../spi_master.v"
+verilog work "../oneshot.v"
+verilog work "ipcore_dir/ila.v"
+verilog work "ipcore_dir/icon.v"
+verilog work "clock_divider.v"
+verilog work "../debounce.v"
+verilog work "../spi_wrapper.v"

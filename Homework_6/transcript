@@ -1,0 +1,48 @@
+# Reading C:/Modeltech_pe_edu_10.4a/tcl/vsim/pref.tcl
+# OpenFile {C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_6/Homwwork 6.mpf}
+# Loading project Homwwork 6
+# Compile of lcd_control.v was successful.
+# Compile of bus_if.v was successful.
+# Compile of command_if.v was successful.
+# Compile of init_detector.v was successful.
+# Compile of acdc_check.v was successful.
+# Compile of debounce.v was successful.
+# Compile of debounce_tb.v was successful.
+# Compile of internal_logic.v was successful.
+# Compile of m25p16.v was successful.
+# Compile of m25p16_driver.v was successful.
+# Compile of memory_access.v was successful.
+# Compile of oneshot.v was successful.
+# Compile of parameter.v was successful.
+# Compile of spi_master.v was successful with warnings.
+# Compile of spi_master_tb.v was successful.
+# Compile of spi_mux.v was successful.
+# Compile of spi_mux_tb.v was successful with warnings.
+# Compile of spi_wrapper.v was successful.
+# Compile of testbench.v was successful.
+# 19 compiles, 0 failed with no errors.
+OpenFile {C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_6/Homwwork 6.mpf}
+vsim -novopt -t 1ns +no_chk_msg top
+# //  ModelSim PE Student Edition 10.4a Apr  7 2015 
+# //
+# //  Copyright 1991-2015 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# // NOT FOR CORPORATE OR PRODUCTION USE.
+# // THE ModelSim PE Student Edition IS NOT A SUPPORTED PRODUCT.
+# // FOR HIGHER EDUCATION PURPOSES ONLY
+# //
+# vsim -gui C:\Users\Kommon\Desktop\Spring 2016\FPGAs\FPGAs_Homework\Homework_6\Homwwork 6.mpf 
+# Start time: 00:37:59 on Mar 16,2016
+# ** Error: (vsim-3170) Could not find 'C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_6/work.top'.
+# 
+# Error loading design

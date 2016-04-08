@@ -1,0 +1,103 @@
+{Z:/Spring 2016/fpgas/Homework 5/FPGAs_Homework-master/FPGAs_Homework-master/Homework_5/spi_master.v} {0 {vlog -work work -vopt {Z:/Spring 2016/fpgas/Homework 5/FPGAs_Homework-master/FPGAs_Homework-master/Homework_5/spi_master.v}
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+** Error: (vlog-42) Unsupported ModelSim library format for "Z:/Spring 2016/fpgas/Homework 5/FPGAs_Homework-master/FPGAs_Homework-master/Homework_5/work". (Format: 4)
+
+** Error: Verilog Compiler exiting
+
+} {3.0 4.0 5.0 6.0} {}} {Z:/Spring 2016/fpgas/Homework 5/FPGAs_Homework-master/FPGAs_Homework-master/Homework_5/testbench.v} {0 {vlog -work work -vopt {Z:/Spring 2016/fpgas/Homework 5/FPGAs_Homework-master/FPGAs_Homework-master/Homework_5/testbench.v}
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+** Error: (vlog-42) Unsupported ModelSim library format for "Z:/Spring 2016/fpgas/Homework 5/FPGAs_Homework-master/FPGAs_Homework-master/Homework_5/work". (Format: 4)
+
+** Error: Verilog Compiler exiting
+
+} {3.0 4.0 5.0 6.0} {}} {Z:/Spring 2016/fpgas/Homework 5/FPGAs_Homework-master/FPGAs_Homework-master/Homework_5/acdc_check.v} {0 {vlog -work work -vopt {Z:/Spring 2016/fpgas/Homework 5/FPGAs_Homework-master/FPGAs_Homework-master/Homework_5/acdc_check.v}
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+** Error: (vlog-42) Unsupported ModelSim library format for "Z:/Spring 2016/fpgas/Homework 5/FPGAs_Homework-master/FPGAs_Homework-master/Homework_5/work". (Format: 4)
+
+** Error: Verilog Compiler exiting
+
+} {3.0 4.0 5.0 6.0} {}} {Z:/Spring 2016/fpgas/Homework 5/FPGAs_Homework-master/FPGAs_Homework-master/Homework_5/spi_mux_tb.v} {0 {vlog -work work -vopt {Z:/Spring 2016/fpgas/Homework 5/FPGAs_Homework-master/FPGAs_Homework-master/Homework_5/spi_mux_tb.v}
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+** Error: (vlog-42) Unsupported ModelSim library format for "Z:/Spring 2016/fpgas/Homework 5/FPGAs_Homework-master/FPGAs_Homework-master/Homework_5/work". (Format: 4)
+
+** Error: Verilog Compiler exiting
+
+} {3.0 4.0 5.0 6.0} {}} {Z:/Spring 2016/fpgas/Homework 5/FPGAs_Homework-master/FPGAs_Homework-master/Homework_5/internal_logic.v} {0 {vlog -work work -vopt {Z:/Spring 2016/fpgas/Homework 5/FPGAs_Homework-master/FPGAs_Homework-master/Homework_5/internal_logic.v}
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+** Error: (vlog-42) Unsupported ModelSim library format for "Z:/Spring 2016/fpgas/Homework 5/FPGAs_Homework-master/FPGAs_Homework-master/Homework_5/work". (Format: 4)
+
+** Error: Verilog Compiler exiting
+
+} {3.0 4.0 5.0 6.0} {}} {Z:/Spring 2016/fpgas/Homework 5/FPGAs_Homework-master/FPGAs_Homework-master/Homework_5/memory_access.v} {0 {vlog -work work -vopt {Z:/Spring 2016/fpgas/Homework 5/FPGAs_Homework-master/FPGAs_Homework-master/Homework_5/memory_access.v}
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+** Error: (vlog-42) Unsupported ModelSim library format for "Z:/Spring 2016/fpgas/Homework 5/FPGAs_Homework-master/FPGAs_Homework-master/Homework_5/work". (Format: 4)
+
+** Error: Verilog Compiler exiting
+
+} {3.0 4.0 5.0 6.0} {}} {Z:/Spring 2016/fpgas/Homework 5/FPGAs_Homework-master/FPGAs_Homework-master/Homework_5/solution_tb.v} {0 {vlog -work work -vopt {Z:/Spring 2016/fpgas/Homework 5/FPGAs_Homework-master/FPGAs_Homework-master/Homework_5/solution_tb.v}
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+** Error: (vlog-42) Unsupported ModelSim library format for "Z:/Spring 2016/fpgas/Homework 5/FPGAs_Homework-master/FPGAs_Homework-master/Homework_5/work". (Format: 4)
+
+** Error: Verilog Compiler exiting
+
+} {3.0 4.0 5.0 6.0} {}} {Z:/Spring 2016/fpgas/Homework 5/FPGAs_Homework-master/FPGAs_Homework-master/Homework_5/M25p16.v} {0 {vlog -work work -vopt {Z:/Spring 2016/fpgas/Homework 5/FPGAs_Homework-master/FPGAs_Homework-master/Homework_5/M25p16.v}
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+** Error: (vlog-42) Unsupported ModelSim library format for "Z:/Spring 2016/fpgas/Homework 5/FPGAs_Homework-master/FPGAs_Homework-master/Homework_5/work". (Format: 4)
+
+** Error: Verilog Compiler exiting
+
+} {3.0 4.0 5.0 6.0} {}} {Z:/Spring 2016/fpgas/Homework 5/FPGAs_Homework-master/FPGAs_Homework-master/Homework_5/spi_wrapper.v} {0 {vlog -work work -vopt {Z:/Spring 2016/fpgas/Homework 5/FPGAs_Homework-master/FPGAs_Homework-master/Homework_5/spi_wrapper.v}
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+** Error: (vlog-42) Unsupported ModelSim library format for "Z:/Spring 2016/fpgas/Homework 5/FPGAs_Homework-master/FPGAs_Homework-master/Homework_5/work". (Format: 4)
+
+** Error: Verilog Compiler exiting
+
+} {3.0 4.0 5.0 6.0} {}} {Z:/Spring 2016/fpgas/Homework 5/FPGAs_Homework-master/FPGAs_Homework-master/Homework_5/spi_master_tb.v} {0 {vlog -work work -vopt {Z:/Spring 2016/fpgas/Homework 5/FPGAs_Homework-master/FPGAs_Homework-master/Homework_5/spi_master_tb.v}
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+** Error: (vlog-42) Unsupported ModelSim library format for "Z:/Spring 2016/fpgas/Homework 5/FPGAs_Homework-master/FPGAs_Homework-master/Homework_5/work". (Format: 4)
+
+** Error: Verilog Compiler exiting
+
+} {3.0 4.0 5.0 6.0} {}} {Z:/Spring 2016/fpgas/Homework 5/FPGAs_Homework-master/FPGAs_Homework-master/Homework_5/debounce.v} {0 {vlog -work work -vopt {Z:/Spring 2016/fpgas/Homework 5/FPGAs_Homework-master/FPGAs_Homework-master/Homework_5/debounce.v}
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+** Error: (vlog-42) Unsupported ModelSim library format for "Z:/Spring 2016/fpgas/Homework 5/FPGAs_Homework-master/FPGAs_Homework-master/Homework_5/work". (Format: 4)
+
+** Error: Verilog Compiler exiting
+
+} {3.0 4.0 5.0 6.0} {}} {Z:/Spring 2016/fpgas/Homework 5/FPGAs_Homework-master/FPGAs_Homework-master/Homework_5/oneshot.v} {0 {vlog -work work -vopt {Z:/Spring 2016/fpgas/Homework 5/FPGAs_Homework-master/FPGAs_Homework-master/Homework_5/oneshot.v}
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+** Error: (vlog-42) Unsupported ModelSim library format for "Z:/Spring 2016/fpgas/Homework 5/FPGAs_Homework-master/FPGAs_Homework-master/Homework_5/work". (Format: 4)
+
+** Error: Verilog Compiler exiting
+
+} {3.0 4.0 5.0 6.0} {}} {Z:/Spring 2016/fpgas/Homework 5/FPGAs_Homework-master/FPGAs_Homework-master/Homework_5/parameter.v} {0 {vlog -work work -vopt {Z:/Spring 2016/fpgas/Homework 5/FPGAs_Homework-master/FPGAs_Homework-master/Homework_5/parameter.v}
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+** Error: (vlog-42) Unsupported ModelSim library format for "Z:/Spring 2016/fpgas/Homework 5/FPGAs_Homework-master/FPGAs_Homework-master/Homework_5/work". (Format: 4)
+
+** Error: Verilog Compiler exiting
+
+} {3.0 4.0 5.0 6.0} {}} {Z:/Spring 2016/fpgas/Homework 5/FPGAs_Homework-master/FPGAs_Homework-master/Homework_5/debounce_tb.v} {0 {vlog -work work -vopt {Z:/Spring 2016/fpgas/Homework 5/FPGAs_Homework-master/FPGAs_Homework-master/Homework_5/debounce_tb.v}
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+** Error: (vlog-42) Unsupported ModelSim library format for "Z:/Spring 2016/fpgas/Homework 5/FPGAs_Homework-master/FPGAs_Homework-master/Homework_5/work". (Format: 4)
+
+** Error: Verilog Compiler exiting
+
+} {3.0 4.0 5.0 6.0} {}} {Z:/Spring 2016/fpgas/Homework 5/FPGAs_Homework-master/FPGAs_Homework-master/Homework_5/solution.v} {0 {vlog -work work -vopt {Z:/Spring 2016/fpgas/Homework 5/FPGAs_Homework-master/FPGAs_Homework-master/Homework_5/solution.v}
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+** Error: (vlog-42) Unsupported ModelSim library format for "Z:/Spring 2016/fpgas/Homework 5/FPGAs_Homework-master/FPGAs_Homework-master/Homework_5/work". (Format: 4)
+
+** Error: Verilog Compiler exiting
+
+} {3.0 4.0 5.0 6.0} {}} {Z:/Spring 2016/fpgas/Homework 5/FPGAs_Homework-master/FPGAs_Homework-master/Homework_5/spi_mux.v} {0 {vlog -work work -vopt {Z:/Spring 2016/fpgas/Homework 5/FPGAs_Homework-master/FPGAs_Homework-master/Homework_5/spi_mux.v}
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+** Error: (vlog-42) Unsupported ModelSim library format for "Z:/Spring 2016/fpgas/Homework 5/FPGAs_Homework-master/FPGAs_Homework-master/Homework_5/work". (Format: 4)
+
+** Error: Verilog Compiler exiting
+
+} {3.0 4.0 5.0 6.0} {}} {Z:/Spring 2016/fpgas/Homework 5/FPGAs_Homework-master/FPGAs_Homework-master/Homework_5/m25p16_driver.v} {0 {vlog -work work -vopt {Z:/Spring 2016/fpgas/Homework 5/FPGAs_Homework-master/FPGAs_Homework-master/Homework_5/m25p16_driver.v}
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+** Error: (vlog-42) Unsupported ModelSim library format for "Z:/Spring 2016/fpgas/Homework 5/FPGAs_Homework-master/FPGAs_Homework-master/Homework_5/work". (Format: 4)
+
+** Error: Verilog Compiler exiting
+
+} {3.0 4.0 5.0 6.0} {}}

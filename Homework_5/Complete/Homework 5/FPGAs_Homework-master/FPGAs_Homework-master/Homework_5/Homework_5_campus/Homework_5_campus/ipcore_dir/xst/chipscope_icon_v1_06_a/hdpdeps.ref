@@ -1,0 +1,116 @@
+V3 83
+FL "//excelsior/uk$/kousley/Spring 2016/fpgas/Homework 5/FPGAs_Homework-master/FPGAs_Homework-master/Homework_5/Homework_5_campus/Homework_5_campus/ipcore_dir/tmp/_cg/_bbx/chipscope_icon_v1_06_a/chipscope_icon.vhd" 2016/03/09.10:44:16 P.20131013
+EN chipscope_icon_v1_06_a/chipscope_icon 1457545542 \
+      FL "//excelsior/uk$/kousley/Spring 2016/fpgas/Homework 5/FPGAs_Homework-master/FPGAs_Homework-master/Homework_5/Homework_5_campus/Homework_5_campus/ipcore_dir/tmp/_cg/_bbx/chipscope_icon_v1_06_a/chipscope_icon.vhd" \
+      PB ieee/std_logic_1164 1381692176 LB unisim PH unisim/VCOMPONENTS 1381692182 \
+      LB chipscope_lib_v1_03_a LB chipscope_icon_v1_06_a \
+      PB chipscope_lib_v1_03_a/cs_pro_package 1457545476 \
+      PB chipscope_icon_v1_06_a/icon_package 1457545521
+AR chipscope_icon_v1_06_a/chipscope_icon/virtex 1457545543 \
+      FL "//excelsior/uk$/kousley/Spring 2016/fpgas/Homework 5/FPGAs_Homework-master/FPGAs_Homework-master/Homework_5/Homework_5_campus/Homework_5_campus/ipcore_dir/tmp/_cg/_bbx/chipscope_icon_v1_06_a/chipscope_icon.vhd" \
+      EN chipscope_icon_v1_06_a/chipscope_icon 1457545542 CP icon_core
+FL "//excelsior/uk$/kousley/Spring 2016/fpgas/Homework 5/FPGAs_Homework-master/FPGAs_Homework-master/Homework_5/Homework_5_campus/Homework_5_campus/ipcore_dir/tmp/_cg/_bbx/chipscope_icon_v1_06_a/icon_bscan.vhd" 2016/03/09.10:44:12 P.20131013
+EN chipscope_icon_v1_06_a/icon_bscan 1457545526 \
+      FL "//excelsior/uk$/kousley/Spring 2016/fpgas/Homework 5/FPGAs_Homework-master/FPGAs_Homework-master/Homework_5/Homework_5_campus/Homework_5_campus/ipcore_dir/tmp/_cg/_bbx/chipscope_icon_v1_06_a/icon_bscan.vhd" \
+      PB ieee/std_logic_1164 1381692176 LB unisim PH unisim/VCOMPONENTS 1381692182 \
+      LB chipscope_lib_v1_03_a LB chipscope_icon_v1_06_a \
+      PB chipscope_lib_v1_03_a/cs_pro_package 1457545476 \
+      PH chipscope_lib_v1_03_a/cs_bscan_pkg 1457545507 \
+      PB chipscope_icon_v1_06_a/icon_package 1457545521
+AR chipscope_icon_v1_06_a/icon_bscan/virtex 1457545527 \
+      FL "//excelsior/uk$/kousley/Spring 2016/fpgas/Homework 5/FPGAs_Homework-master/FPGAs_Homework-master/Homework_5/Homework_5_campus/Homework_5_campus/ipcore_dir/tmp/_cg/_bbx/chipscope_icon_v1_06_a/icon_bscan.vhd" \
+      EN chipscope_icon_v1_06_a/icon_bscan 1457545526 CP icon_bscan_bufg_src \
+      CP icon_bscan_bufg CP label CP BSCAN_VIRTEX4 CP std_logic CP BUFG \
+      CP cs_bscan_tap CP BSCAN_VIRTEX5 CP BSCAN_SPARTAN3 CP BSCAN_SPARTAN3A \
+      CP BSCAN_VIRTEX6 CP BSCAN_SPARTAN6 CP BSCANE2
+FL "//excelsior/uk$/kousley/Spring 2016/fpgas/Homework 5/FPGAs_Homework-master/FPGAs_Homework-master/Homework_5/Homework_5_campus/Homework_5_campus/ipcore_dir/tmp/_cg/_bbx/chipscope_icon_v1_06_a/icon_bscan_bufg.vhd" 2016/03/09.10:44:11 P.20131013
+EN chipscope_icon_v1_06_a/icon_bscan_bufg 1457545524 \
+      FL "//excelsior/uk$/kousley/Spring 2016/fpgas/Homework 5/FPGAs_Homework-master/FPGAs_Homework-master/Homework_5/Homework_5_campus/Homework_5_campus/ipcore_dir/tmp/_cg/_bbx/chipscope_icon_v1_06_a/icon_bscan_bufg.vhd" \
+      PB ieee/std_logic_1164 1381692176 LB unisim PH unisim/VCOMPONENTS 1381692182
+AR chipscope_icon_v1_06_a/icon_bscan_bufg/syn 1457545525 \
+      FL "//excelsior/uk$/kousley/Spring 2016/fpgas/Homework 5/FPGAs_Homework-master/FPGAs_Homework-master/Homework_5/Homework_5_campus/Homework_5_campus/ipcore_dir/tmp/_cg/_bbx/chipscope_icon_v1_06_a/icon_bscan_bufg.vhd" \
+      EN chipscope_icon_v1_06_a/icon_bscan_bufg 1457545524 CP BUFG
+FL "//excelsior/uk$/kousley/Spring 2016/fpgas/Homework 5/FPGAs_Homework-master/FPGAs_Homework-master/Homework_5/Homework_5_campus/Homework_5_campus/ipcore_dir/tmp/_cg/_bbx/chipscope_icon_v1_06_a/icon_bscan_bufg_src.vhd" 2016/03/09.10:44:11 P.20131013
+EN chipscope_icon_v1_06_a/icon_bscan_bufg_src 1457545522 \
+      FL "//excelsior/uk$/kousley/Spring 2016/fpgas/Homework 5/FPGAs_Homework-master/FPGAs_Homework-master/Homework_5/Homework_5_campus/Homework_5_campus/ipcore_dir/tmp/_cg/_bbx/chipscope_icon_v1_06_a/icon_bscan_bufg_src.vhd" \
+      PB ieee/std_logic_1164 1381692176 LB unisim PH unisim/VCOMPONENTS 1381692182
+AR chipscope_icon_v1_06_a/icon_bscan_bufg_src/syn 1457545523 \
+      FL "//excelsior/uk$/kousley/Spring 2016/fpgas/Homework 5/FPGAs_Homework-master/FPGAs_Homework-master/Homework_5/Homework_5_campus/Homework_5_campus/ipcore_dir/tmp/_cg/_bbx/chipscope_icon_v1_06_a/icon_bscan_bufg_src.vhd" \
+      EN chipscope_icon_v1_06_a/icon_bscan_bufg_src 1457545522 CP BUFG CP BUFR
+FL "//excelsior/uk$/kousley/Spring 2016/fpgas/Homework 5/FPGAs_Homework-master/FPGAs_Homework-master/Homework_5/Homework_5_campus/Homework_5_campus/ipcore_dir/tmp/_cg/_bbx/chipscope_icon_v1_06_a/icon_cmd_decode.vhd" 2016/03/09.10:44:13 P.20131013
+EN chipscope_icon_v1_06_a/icon_cmd_decode 1457545532 \
+      FL "//excelsior/uk$/kousley/Spring 2016/fpgas/Homework 5/FPGAs_Homework-master/FPGAs_Homework-master/Homework_5/Homework_5_campus/Homework_5_campus/ipcore_dir/tmp/_cg/_bbx/chipscope_icon_v1_06_a/icon_cmd_decode.vhd" \
+      PB ieee/std_logic_1164 1381692176 LB unisim PH unisim/VCOMPONENTS 1381692182 \
+      LB chipscope_lib_v1_03_a LB chipscope_icon_v1_06_a \
+      PB chipscope_lib_v1_03_a/cs_pro_package 1457545476 \
+      PB chipscope_icon_v1_06_a/icon_package 1457545521
+AR chipscope_icon_v1_06_a/icon_cmd_decode/virtex 1457545533 \
+      FL "//excelsior/uk$/kousley/Spring 2016/fpgas/Homework 5/FPGAs_Homework-master/FPGAs_Homework-master/Homework_5/Homework_5_campus/Homework_5_campus/ipcore_dir/tmp/_cg/_bbx/chipscope_icon_v1_06_a/icon_cmd_decode.vhd" \
+      EN chipscope_icon_v1_06_a/icon_cmd_decode 1457545532 CP INV CP LUT2 CP FDCE \
+      CP async_decoder
+FL "//excelsior/uk$/kousley/Spring 2016/fpgas/Homework 5/FPGAs_Homework-master/FPGAs_Homework-master/Homework_5/Homework_5_campus/Homework_5_campus/ipcore_dir/tmp/_cg/_bbx/chipscope_icon_v1_06_a/icon_core.vhd" 2016/03/09.10:44:16 P.20131013
+EN chipscope_icon_v1_06_a/icon_core 1457545540 \
+      FL "//excelsior/uk$/kousley/Spring 2016/fpgas/Homework 5/FPGAs_Homework-master/FPGAs_Homework-master/Homework_5/Homework_5_campus/Homework_5_campus/ipcore_dir/tmp/_cg/_bbx/chipscope_icon_v1_06_a/icon_core.vhd" \
+      PB ieee/std_logic_1164 1381692176 LB unisim PH unisim/VCOMPONENTS 1381692182 \
+      LB chipscope_lib_v1_03_a LB chipscope_icon_v1_06_a \
+      PB chipscope_lib_v1_03_a/cs_pro_package 1457545476 \
+      PB chipscope_icon_v1_06_a/icon_package 1457545521
+AR chipscope_icon_v1_06_a/icon_core/virtex 1457545541 \
+      FL "//excelsior/uk$/kousley/Spring 2016/fpgas/Homework 5/FPGAs_Homework-master/FPGAs_Homework-master/Homework_5/Homework_5_campus/Homework_5_campus/ipcore_dir/tmp/_cg/_bbx/chipscope_icon_v1_06_a/icon_core.vhd" \
+      EN chipscope_icon_v1_06_a/icon_core 1457545540 CP icon_bscan \
+      CP icon_bscan_bufg_src CP icon_bscan_bufg CP icon_drck_wire_src \
+      CP icon_drck_wire CP FDE CP INV CP FDC CP icon_cmd_decode CP icon_sync \
+      CP icon_ctrl_out CP icon_status CP async_mux
+FL "//excelsior/uk$/kousley/Spring 2016/fpgas/Homework 5/FPGAs_Homework-master/FPGAs_Homework-master/Homework_5/Homework_5_campus/Homework_5_campus/ipcore_dir/tmp/_cg/_bbx/chipscope_icon_v1_06_a/icon_ctrl_out.vhd" 2016/03/09.10:44:13 P.20131013
+EN chipscope_icon_v1_06_a/icon_ctrl_out 1457545536 \
+      FL "//excelsior/uk$/kousley/Spring 2016/fpgas/Homework 5/FPGAs_Homework-master/FPGAs_Homework-master/Homework_5/Homework_5_campus/Homework_5_campus/ipcore_dir/tmp/_cg/_bbx/chipscope_icon_v1_06_a/icon_ctrl_out.vhd" \
+      PB ieee/std_logic_1164 1381692176 LB unisim PH unisim/VCOMPONENTS 1381692182 \
+      LB chipscope_lib_v1_03_a LB chipscope_icon_v1_06_a \
+      PB chipscope_lib_v1_03_a/cs_pro_package 1457545476 \
+      PB chipscope_icon_v1_06_a/icon_package 1457545521
+AR chipscope_icon_v1_06_a/icon_ctrl_out/virtex 1457545537 \
+      FL "//excelsior/uk$/kousley/Spring 2016/fpgas/Homework 5/FPGAs_Homework-master/FPGAs_Homework-master/Homework_5/Homework_5_campus/Homework_5_campus/ipcore_dir/tmp/_cg/_bbx/chipscope_icon_v1_06_a/icon_ctrl_out.vhd" \
+      EN chipscope_icon_v1_06_a/icon_ctrl_out 1457545536 CP LUT2 CP LUT4
+FL "//excelsior/uk$/kousley/Spring 2016/fpgas/Homework 5/FPGAs_Homework-master/FPGAs_Homework-master/Homework_5/Homework_5_campus/Homework_5_campus/ipcore_dir/tmp/_cg/_bbx/chipscope_icon_v1_06_a/icon_drck_wire.vhd" 2016/03/09.10:44:14 P.20131013
+EN chipscope_icon_v1_06_a/icon_drck_wire 1457545530 \
+      FL "//excelsior/uk$/kousley/Spring 2016/fpgas/Homework 5/FPGAs_Homework-master/FPGAs_Homework-master/Homework_5/Homework_5_campus/Homework_5_campus/ipcore_dir/tmp/_cg/_bbx/chipscope_icon_v1_06_a/icon_drck_wire.vhd" \
+      PB ieee/std_logic_1164 1381692176 LB unisim PH unisim/VCOMPONENTS 1381692182
+AR chipscope_icon_v1_06_a/icon_drck_wire/syn 1457545531 \
+      FL "//excelsior/uk$/kousley/Spring 2016/fpgas/Homework 5/FPGAs_Homework-master/FPGAs_Homework-master/Homework_5/Homework_5_campus/Homework_5_campus/ipcore_dir/tmp/_cg/_bbx/chipscope_icon_v1_06_a/icon_drck_wire.vhd" \
+      EN chipscope_icon_v1_06_a/icon_drck_wire 1457545530
+FL "//excelsior/uk$/kousley/Spring 2016/fpgas/Homework 5/FPGAs_Homework-master/FPGAs_Homework-master/Homework_5/Homework_5_campus/Homework_5_campus/ipcore_dir/tmp/_cg/_bbx/chipscope_icon_v1_06_a/icon_drck_wire_src.vhd" 2016/03/09.10:44:14 P.20131013
+EN chipscope_icon_v1_06_a/icon_drck_wire_src 1457545528 \
+      FL "//excelsior/uk$/kousley/Spring 2016/fpgas/Homework 5/FPGAs_Homework-master/FPGAs_Homework-master/Homework_5/Homework_5_campus/Homework_5_campus/ipcore_dir/tmp/_cg/_bbx/chipscope_icon_v1_06_a/icon_drck_wire_src.vhd" \
+      PB ieee/std_logic_1164 1381692176 LB unisim PH unisim/VCOMPONENTS 1381692182
+AR chipscope_icon_v1_06_a/icon_drck_wire_src/syn 1457545529 \
+      FL "//excelsior/uk$/kousley/Spring 2016/fpgas/Homework 5/FPGAs_Homework-master/FPGAs_Homework-master/Homework_5/Homework_5_campus/Homework_5_campus/ipcore_dir/tmp/_cg/_bbx/chipscope_icon_v1_06_a/icon_drck_wire_src.vhd" \
+      EN chipscope_icon_v1_06_a/icon_drck_wire_src 1457545528
+FL "//excelsior/uk$/kousley/Spring 2016/fpgas/Homework 5/FPGAs_Homework-master/FPGAs_Homework-master/Homework_5/Homework_5_campus/Homework_5_campus/ipcore_dir/tmp/_cg/_bbx/chipscope_icon_v1_06_a/icon_package.vhd" 2016/03/09.10:44:12 P.20131013
+PH chipscope_icon_v1_06_a/icon_package 1457545520 \
+      FL "//excelsior/uk$/kousley/Spring 2016/fpgas/Homework 5/FPGAs_Homework-master/FPGAs_Homework-master/Homework_5/Homework_5_campus/Homework_5_campus/ipcore_dir/tmp/_cg/_bbx/chipscope_icon_v1_06_a/icon_package.vhd" \
+      PB ieee/std_logic_1164 1381692176 LB chipscope_lib_v1_03_a CD chipscope_icon \
+      CD icon_bscan CD icon_cmd_decode CD icon_core CD icon_ctrl_out CD icon_status \
+      CD icon_sync CD icon_bscan_bufg_src CD icon_drck_wire_src \
+      PB chipscope_lib_v1_03_a/cs_pro_package 1457545476
+PB chipscope_icon_v1_06_a/icon_package 1457545521 \
+      FL "//excelsior/uk$/kousley/Spring 2016/fpgas/Homework 5/FPGAs_Homework-master/FPGAs_Homework-master/Homework_5/Homework_5_campus/Homework_5_campus/ipcore_dir/tmp/_cg/_bbx/chipscope_icon_v1_06_a/icon_package.vhd" \
+      PH chipscope_icon_v1_06_a/icon_package 1457545520
+FL "//excelsior/uk$/kousley/Spring 2016/fpgas/Homework 5/FPGAs_Homework-master/FPGAs_Homework-master/Homework_5/Homework_5_campus/Homework_5_campus/ipcore_dir/tmp/_cg/_bbx/chipscope_icon_v1_06_a/icon_status.vhd" 2016/03/09.10:44:15 P.20131013
+EN chipscope_icon_v1_06_a/icon_status 1457545538 \
+      FL "//excelsior/uk$/kousley/Spring 2016/fpgas/Homework 5/FPGAs_Homework-master/FPGAs_Homework-master/Homework_5/Homework_5_campus/Homework_5_campus/ipcore_dir/tmp/_cg/_bbx/chipscope_icon_v1_06_a/icon_status.vhd" \
+      PB ieee/std_logic_1164 1381692176 LB unisim PH unisim/VCOMPONENTS 1381692182 \
+      LB chipscope_lib_v1_03_a LB chipscope_icon_v1_06_a \
+      PB chipscope_lib_v1_03_a/cs_pro_package 1457545476 \
+      PB chipscope_icon_v1_06_a/icon_package 1457545521
+AR chipscope_icon_v1_06_a/icon_status/virtex 1457545539 \
+      FL "//excelsior/uk$/kousley/Spring 2016/fpgas/Homework 5/FPGAs_Homework-master/FPGAs_Homework-master/Homework_5/Homework_5_campus/Homework_5_campus/ipcore_dir/tmp/_cg/_bbx/chipscope_icon_v1_06_a/icon_status.vhd" \
+      EN chipscope_icon_v1_06_a/icon_status 1457545538 CP LUT2 CP LUT4 CP INV \
+      CP counter CP MUXF5 CP MUXF6 CP FDE
+FL "//excelsior/uk$/kousley/Spring 2016/fpgas/Homework 5/FPGAs_Homework-master/FPGAs_Homework-master/Homework_5/Homework_5_campus/Homework_5_campus/ipcore_dir/tmp/_cg/_bbx/chipscope_icon_v1_06_a/icon_sync.vhd" 2016/03/09.10:44:15 P.20131013
+EN chipscope_icon_v1_06_a/icon_sync 1457545534 \
+      FL "//excelsior/uk$/kousley/Spring 2016/fpgas/Homework 5/FPGAs_Homework-master/FPGAs_Homework-master/Homework_5/Homework_5_campus/Homework_5_campus/ipcore_dir/tmp/_cg/_bbx/chipscope_icon_v1_06_a/icon_sync.vhd" \
+      PB ieee/std_logic_1164 1381692176 LB unisim PH unisim/VCOMPONENTS 1381692182
+AR chipscope_icon_v1_06_a/icon_sync/virtex 1457545535 \
+      FL "//excelsior/uk$/kousley/Spring 2016/fpgas/Homework 5/FPGAs_Homework-master/FPGAs_Homework-master/Homework_5/Homework_5_campus/Homework_5_campus/ipcore_dir/tmp/_cg/_bbx/chipscope_icon_v1_06_a/icon_sync.vhd" \
+      EN chipscope_icon_v1_06_a/icon_sync 1457545534 CP INV CP FDR CP LUT4 CP LUT2 \
+      CP FDRE

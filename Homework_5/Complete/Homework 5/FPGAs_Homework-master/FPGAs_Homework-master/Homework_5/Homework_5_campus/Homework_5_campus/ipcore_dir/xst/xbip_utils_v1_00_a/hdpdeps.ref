@@ -1,0 +1,8 @@
+V3 4
+FL "//excelsior/uk$/kousley/Spring 2016/fpgas/Homework 5/FPGAs_Homework-master/FPGAs_Homework-master/Homework_5/Homework_5_campus/Homework_5_campus/ipcore_dir/tmp/_cg/_bbx/xbip_utils_v1_00_a/bip_utils_pkg.vhd" 2013/10/13.07:12:02 P.20131013
+PH xbip_utils_v1_00_a/bip_utils_pkg 1457545852 \
+      FL "//excelsior/uk$/kousley/Spring 2016/fpgas/Homework 5/FPGAs_Homework-master/FPGAs_Homework-master/Homework_5/Homework_5_campus/Homework_5_campus/ipcore_dir/tmp/_cg/_bbx/xbip_utils_v1_00_a/bip_utils_pkg.vhd" \
+      PB ieee/std_logic_1164 1381692176 LB std PB std/TEXTIO 1381692176
+PB xbip_utils_v1_00_a/bip_utils_pkg 1457545853 \
+      FL "//excelsior/uk$/kousley/Spring 2016/fpgas/Homework 5/FPGAs_Homework-master/FPGAs_Homework-master/Homework_5/Homework_5_campus/Homework_5_campus/ipcore_dir/tmp/_cg/_bbx/xbip_utils_v1_00_a/bip_utils_pkg.vhd" \
+      PH xbip_utils_v1_00_a/bip_utils_pkg 1457545852

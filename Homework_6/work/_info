@@ -1,0 +1,388 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_6
+vacdc_check
+Z1 !s110 1458110237
+!i10b 1
+!s100 cJo0:`G`O6[JYNd=bbc4<3
+Iz5M?Tz_YNSCD>2ka7So[T0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1458098204
+8C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_6/acdc_check.v
+FC:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_6/acdc_check.v
+Z4 L0 20
+Z5 OP;L;10.4a;61
+r1
+!s85 0
+31
+Z6 !s108 1458110237.000000
+!s107 parameter.v|C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_6/acdc_check.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_6/acdc_check.v|
+!s101 -O0
+!i113 1
+Z7 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact -O0
+vbus_if
+R1
+!i10b 1
+!s100 ^?KIa2cjTkOJ42cGR7?z80
+ImdZonQg2SN?WClFC9>Jla1
+R2
+R0
+Z8 w1458109464
+8C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_6/bus_if.v
+FC:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_6/bus_if.v
+L0 5
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_6/bus_if.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_6/bus_if.v|
+!s101 -O0
+!i113 1
+R7
+vcommand_if
+R1
+!i10b 1
+!s100 gJ^ef@3YKTT843R6CEm4X2
+I<bRF__gXL_Qof_:;QG4aZ0
+R2
+R0
+R8
+8C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_6/command_if.v
+FC:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_6/command_if.v
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_6/command_if.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_6/command_if.v|
+!s101 -O0
+!i113 1
+R7
+vdebounce
+R1
+!i10b 1
+!s100 3AMNN9G7Kfe:4=DXLXQ:f3
+Ii^5Sa;Uz8oaoW;Ff027iO3
+R2
+R0
+w1458105034
+8C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_6/debounce.v
+FC:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_6/debounce.v
+L0 3
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_6/debounce.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_6/debounce.v|
+!s101 -O0
+!i113 1
+R7
+vdebounce_tb
+R1
+!i10b 1
+!s100 :oFTEa2zzn5L8HScK3?1Q2
+IfXZW@BhSVWPD?RMOTAeO=2
+R2
+R0
+R3
+8C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_6/debounce_tb.v
+FC:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_6/debounce_tb.v
+L0 2
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_6/debounce_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_6/debounce_tb.v|
+!s101 -O0
+!i113 1
+R7
+vinit_detector
+R1
+!i10b 1
+!s100 2WPi=4PKkg@UEjeIH5GCi2
+I1bKWkbT:Cb<QT;08FCN4B3
+R2
+R0
+R8
+8C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_6/init_detector.v
+FC:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_6/init_detector.v
+L0 5
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_6/init_detector.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_6/init_detector.v|
+!s101 -O0
+!i113 1
+R7
+vinternal_logic
+R1
+!i10b 1
+!s100 Qnc<8P>LG?fjT@M>L:hE63
+IMJWPTO5N7OMli121:`80;2
+R2
+R0
+R3
+8C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_6/internal_logic.v
+FC:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_6/internal_logic.v
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 parameter.v|C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_6/internal_logic.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_6/internal_logic.v|
+!s101 -O0
+!i113 1
+R7
+vlcd_control
+R1
+!i10b 1
+!s100 bUXLCajUXN_3@LK`zBj3M1
+Id3mcG[ii`:^]QOQj11M``3
+R2
+R0
+R8
+8C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_6/lcd_control.v
+FC:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_6/lcd_control.v
+L0 2
+R5
+r1
+!s85 0
+31
+!s108 1458110236.000000
+!s107 C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_6/lcd_control.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_6/lcd_control.v|
+!s101 -O0
+!i113 1
+R7
+vm25p16
+R1
+!i10b 1
+!s100 n20e5GIPRCVUWOcS18Kze1
+I@@0ieJM^6zonS?mUC2VDd3
+R2
+R0
+R3
+8C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_6/m25p16.v
+FC:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_6/m25p16.v
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 parameter.v|C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_6/m25p16.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_6/m25p16.v|
+!s101 -O0
+!i113 1
+R7
+vm25p16_driver
+Z9 !s110 1458110238
+!i10b 1
+!s100 jRoJLRTdA^W9JgE?[d_Dc2
+IXZ8iR:R3hRRFHJmn>aFP30
+R2
+R0
+R3
+8C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_6/m25p16_driver.v
+FC:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_6/m25p16_driver.v
+R4
+R5
+r1
+!s85 0
+31
+Z10 !s108 1458110238.000000
+!s107 parameter.v|C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_6/m25p16_driver.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_6/m25p16_driver.v|
+!s101 -O0
+!i113 1
+R7
+vmemory_access
+R9
+!i10b 1
+!s100 iNQY<^MC[k]3H9mfdh17I0
+IgLnDm65=C72WzAFzeJ4XC3
+R2
+R0
+R3
+8C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_6/memory_access.v
+FC:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_6/memory_access.v
+R4
+R5
+r1
+!s85 0
+31
+R10
+!s107 parameter.v|C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_6/memory_access.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_6/memory_access.v|
+!s101 -O0
+!i113 1
+R7
+voneshot
+R9
+!i10b 1
+!s100 D^;FlmX>1on=2D`Jo[M_Z0
+IWm1eD?FeRFoleAH0_>I830
+R2
+R0
+w1458105090
+8C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_6/oneshot.v
+FC:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_6/oneshot.v
+L0 2
+R5
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_6/oneshot.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_6/oneshot.v|
+!s101 -O0
+!i113 1
+R7
+vspi_master
+R9
+!i10b 1
+!s100 EQCBQJeUIO`3GN=b1;0ja0
+IzX^zI1GNVPkGdaPXYZZZH0
+R2
+R0
+w1458104604
+8C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_6/spi_master.v
+FC:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_6/spi_master.v
+L0 3
+R5
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_6/spi_master.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_6/spi_master.v|
+!s101 -O0
+!i113 1
+R7
+vspi_master_tb
+R9
+!i10b 1
+!s100 @094RYj9TTM]6ON?0KhbO3
+I?]8hLAgk8^2_3AV_93S=F0
+R2
+R0
+R3
+8C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_6/spi_master_tb.v
+FC:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_6/spi_master_tb.v
+L0 4
+R5
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_6/spi_master_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_6/spi_master_tb.v|
+!s101 -O0
+!i113 1
+R7
+vspi_mux
+Z11 !s110 1458110239
+!i10b 1
+!s100 ZJ<n6;JAG9PlPl<<31Fbz0
+I?Ta4;@zTJ62<QJ4I`S6L]1
+R2
+R0
+w1458104854
+8C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_6/spi_mux.v
+FC:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_6/spi_mux.v
+L0 2
+R5
+r1
+!s85 0
+31
+Z12 !s108 1458110239.000000
+!s107 C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_6/spi_mux.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_6/spi_mux.v|
+!s101 -O0
+!i113 1
+R7
+vspi_mux_tb
+R11
+!i10b 1
+!s100 =DmoBQdQLL1=ZYTj2X^>I1
+I2@F5_DDA>Q>26baM5YM[O3
+R2
+R0
+R3
+8C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_6/spi_mux_tb.v
+FC:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_6/spi_mux_tb.v
+L0 1
+R5
+r1
+!s85 0
+31
+R12
+!s107 C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_6/spi_mux_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_6/spi_mux_tb.v|
+!s101 -O0
+!i113 1
+R7
+vspi_wrapper
+R11
+!i10b 1
+!s100 F=LM`D;9Pan`8J27:>7343
+IlVQ`aOX5hO=UVXMMcC`H20
+R2
+R0
+w1458104384
+8C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_6/spi_wrapper.v
+FC:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_6/spi_wrapper.v
+L0 6
+R5
+r1
+!s85 0
+31
+R12
+!s107 C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_6/spi_wrapper.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_6/spi_wrapper.v|
+!s101 -O0
+!i113 1
+R7
+vtestbench
+!s110 1458110240
+!i10b 1
+!s100 EjzG03?E@8Y^TRbkf4?]22
+IA96]>Ti7cz;8ESXzZ[YlW3
+R2
+R0
+R3
+8C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_6/testbench.v
+FC:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_6/testbench.v
+L0 19
+R5
+r1
+!s85 0
+31
+!s108 1458110240.000000
+!s107 C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_6/testbench.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_6/testbench.v|
+!s101 -O0
+!i113 1
+R7

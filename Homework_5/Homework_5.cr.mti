@@ -39,7 +39,13 @@ Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 
 Top level modules:
 	m25p16
 
-} {} {}} {C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_5/spi_master_tb.v} {1 {vlog -work work -stats=none {C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_5/spi_master_tb.v}
+} {} {}} {C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_5/spi_wrapper.v} {0 {vlog -work work -stats=none {C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_5/spi_wrapper.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module spi_wrapper
+** Error: (vlog-13069) C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_5/spi_wrapper.v(17): near ".": syntax error, unexpected '.', expecting ')'.
+
+
+} {4.0 5.0} {}} {C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_5/spi_master_tb.v} {1 {vlog -work work -stats=none {C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_5/spi_master_tb.v}
 Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
 -- Compiling module spi_master_tb
 
@@ -70,19 +76,19 @@ Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 
 Top level modules:
 	debounce_tb
 
-} {} {}} {C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_5/spi_mux.v} {1 {vlog -work work -stats=none {C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_5/spi_mux.v}
-Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
--- Compiling module spi_mux
-
-Top level modules:
-	spi_mux
-
 } {} {}} {C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_5/solution.v} {1 {vlog -work work -stats=none {C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_5/solution.v}
 Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
 -- Compiling module rdid
 
 Top level modules:
 	rdid
+
+} {} {}} {C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_5/spi_mux.v} {1 {vlog -work work -stats=none {C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_5/spi_mux.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module spi_mux
+
+Top level modules:
+	spi_mux
 
 } {} {}} {C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_5/m25p16_driver.v} {1 {vlog -work work -stats=none {C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_5/m25p16_driver.v}
 Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
@@ -100,18 +106,18 @@ Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 
 Top level modules:
 	spi_master
 
-} {} {}} {C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_5/testbench.v} {1 {vlog -work work -stats=none {C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_5/testbench.v}
-Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
--- Compiling module testbench
-
-Top level modules:
-	testbench
-
 } {} {}} {C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_5/acdc_check.v} {1 {vlog -work work -stats=none {C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_5/acdc_check.v}
 Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
 -- Compiling module acdc_check
 
 Top level modules:
 	acdc_check
+
+} {} {}} {C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_5/testbench.v} {1 {vlog -work work -stats=none {C:/Users/Kommon/Desktop/Spring 2016/FPGAs/FPGAs_Homework/Homework_5/testbench.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module testbench
+
+Top level modules:
+	testbench
 
 } {} {}}

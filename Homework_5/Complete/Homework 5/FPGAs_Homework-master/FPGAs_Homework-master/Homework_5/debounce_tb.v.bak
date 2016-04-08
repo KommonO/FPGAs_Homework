@@ -1,0 +1,41 @@
+//`timescale 1ns/100ps
+module debounce_tb();
+  //Inputs
+  reg clk;
+  reg get_rdid;
+  reg rst;
+  //Outputs
+  wire get_rdid_debounce;
+
+debounce debounce(.clk(clk), .rst(rst), .get_rdid(get_rdid), .get_rdid_debounce(get_rdid_debounce));
+
+  initial begin
+    clk = 1'b0;
+    rst = 1'b1;
+    #100 rst = 1'b0;
+    get_rdid = 0;
+  end
+  always #50 clk = ~clk;
+
+  always begin
+    #4000 get_rdid = 1'b1;
+    #40 get_rdid = 1'b0;
+    #80 get_rdid = 1'b1;
+    #80 get_rdid = 1'b0;
+    #80 get_rdid = 1'b1; 
+    #4000 get_rdid = 1'b0;
+    #400 get_rdid = 1'b1;
+    #4000 get_rdid = 1'b0;
+    #40 get_rdid = 1'b1;
+    #80 get_rdid = 1'b0;
+    #80 get_rdid = 1'b1;
+    #80 get_rdid = 1'b0;
+    #4000
+    $finish;
+  end  //end always block for inverting get_rdid
+
+
+
+
+endmodule
+

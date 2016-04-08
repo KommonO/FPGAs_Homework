@@ -1,0 +1,703 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 4
+-n 3 -fastpaths -xml spi_wrapper.twx spi_wrapper.ncd -o spi_wrapper.twr
+spi_wrapper.pcf
+
+Design file:              spi_wrapper.ncd
+Physical constraint file: spi_wrapper.pcf
+Device,package,speed:     xc3s500e,fg320,-4 (PRODUCTION 1.27 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+================================================================================
+Timing constraint: NET "CLKIN_IBUFG_OUT1" PERIOD = 20 ns HIGH 40%;
+For more information, see Period Analysis in the Timing Closure User Guide (UG612).
+
+ 1126 paths analyzed, 423 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 setup errors, 0 hold errors, 0 component switching limit errors)
+ Minimum period is   7.500ns.
+--------------------------------------------------------------------------------
+
+Paths for end point ila/U0/I_TQ0.G_TW[6].U_TQ (SLICE_X48Y29.BY), 1 path
+--------------------------------------------------------------------------------
+Slack (setup path):     12.767ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               spi_master/spisck (FF)
+  Destination:          ila/U0/I_TQ0.G_TW[6].U_TQ (FF)
+  Requirement:          20.000ns
+  Data Path Delay:      7.233ns (Levels of Logic = 0)
+  Clock Path Skew:      0.000ns
+  Source Clock:         clk rising at 0.000ns
+  Destination Clock:    CLKIN_IBUFG_OUT rising at 20.000ns
+  Clock Uncertainty:    0.000ns
+
+  Maximum Data Path: spi_master/spisck to ila/U0/I_TQ0.G_TW[6].U_TQ
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X33Y31.YQ      Tcko                  0.587   spi_master/spisck1
+                                                       spi_master/spisck
+    SLICE_X48Y29.BY      net (fanout=6)        6.264   spi_master/spisck1
+    SLICE_X48Y29.CLK     Tdick                 0.382   ila/U0/iTRIG_IN<7>
+                                                       ila/U0/I_TQ0.G_TW[6].U_TQ
+    -------------------------------------------------  ---------------------------
+    Total                                      7.233ns (0.969ns logic, 6.264ns route)
+                                                       (13.4% logic, 86.6% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point ila/U0/I_TQ0.G_TW[4].U_TQ (SLICE_X34Y34.G1), 1 path
+--------------------------------------------------------------------------------
+Slack (setup path):     12.844ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               spi_master/send_count_1 (FF)
+  Destination:          ila/U0/I_TQ0.G_TW[4].U_TQ (FF)
+  Requirement:          20.000ns
+  Data Path Delay:      7.156ns (Levels of Logic = 1)
+  Clock Path Skew:      0.000ns
+  Source Clock:         clk rising at 0.000ns
+  Destination Clock:    CLKIN_IBUFG_OUT rising at 20.000ns
+  Clock Uncertainty:    0.000ns
+
+  Maximum Data Path: spi_master/send_count_1 to ila/U0/I_TQ0.G_TW[4].U_TQ
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X33Y37.XQ      Tcko                  0.591   spi_master/send_count<1>
+                                                       spi_master/send_count_1
+    SLICE_X34Y34.G1      net (fanout=4)        5.673   spi_master/send_count<1>
+    SLICE_X34Y34.CLK     Tgck                  0.892   ila/U0/iTRIG_IN<5>
+                                                       spi_master/Mrom__COND_311
+                                                       ila/U0/I_TQ0.G_TW[4].U_TQ
+    -------------------------------------------------  ---------------------------
+    Total                                      7.156ns (1.483ns logic, 5.673ns route)
+                                                       (20.7% logic, 79.3% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point ila/U0/I_TQ0.G_TW[3].U_TQ (SLICE_X46Y28.BX), 1 path
+--------------------------------------------------------------------------------
+Slack (setup path):     13.845ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               spi_master/chip_select (FF)
+  Destination:          ila/U0/I_TQ0.G_TW[3].U_TQ (FF)
+  Requirement:          20.000ns
+  Data Path Delay:      6.155ns (Levels of Logic = 0)
+  Clock Path Skew:      0.000ns
+  Source Clock:         clk rising at 0.000ns
+  Destination Clock:    CLKIN_IBUFG_OUT rising at 20.000ns
+  Clock Uncertainty:    0.000ns
+
+  Maximum Data Path: spi_master/chip_select to ila/U0/I_TQ0.G_TW[3].U_TQ
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X33Y28.YQ      Tcko                  0.587   spi_master/chip_select
+                                                       spi_master/chip_select
+    SLICE_X46Y28.BX      net (fanout=2)        5.208   spi_master/chip_select
+    SLICE_X46Y28.CLK     Tdick                 0.360   ila/U0/iTRIG_IN<3>
+                                                       ila/U0/I_TQ0.G_TW[3].U_TQ
+    -------------------------------------------------  ---------------------------
+    Total                                      6.155ns (0.947ns logic, 5.208ns route)
+                                                       (15.4% logic, 84.6% route)
+
+--------------------------------------------------------------------------------
+
+Hold Paths: NET "CLKIN_IBUFG_OUT1" PERIOD = 20 ns HIGH 40%;
+--------------------------------------------------------------------------------
+
+Paths for end point ila/U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_NO_TB.I_RT1.U_RAM/G_BRAM[3].U_BRAM/ram_rt1_s1_s2_if.ram_rt1_s1_s2_i.B (RAMB16_X1Y3.DIB1), 1 path
+--------------------------------------------------------------------------------
+Slack (hold path):      0.727ns (requirement - (clock path skew + uncertainty - data path))
+  Source:               ila/U0/I_NO_D.U_ILA/I_DQ.U_DQQ/DLY_9.DLY_9_GEN[7].I_SRLT_NE_0.FF (FF)
+  Destination:          ila/U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_NO_TB.I_RT1.U_RAM/G_BRAM[3].U_BRAM/ram_rt1_s1_s2_if.ram_rt1_s1_s2_i.B (RAM)
+  Requirement:          0.000ns
+  Data Path Delay:      0.742ns (Levels of Logic = 0)
+  Clock Path Skew:      0.015ns (0.035 - 0.020)
+  Source Clock:         CLKIN_IBUFG_OUT rising at 20.000ns
+  Destination Clock:    CLKIN_IBUFG_OUT rising at 20.000ns
+  Clock Uncertainty:    0.000ns
+
+  Minimum Data Path: ila/U0/I_NO_D.U_ILA/I_DQ.U_DQQ/DLY_9.DLY_9_GEN[7].I_SRLT_NE_0.FF to ila/U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_NO_TB.I_RT1.U_RAM/G_BRAM[3].U_BRAM/ram_rt1_s1_s2_if.ram_rt1_s1_s2_i.B
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X54Y28.XQ      Tcko                  0.474   ila/U0/I_NO_D.U_ILA/iDATA<7>
+                                                       ila/U0/I_NO_D.U_ILA/I_DQ.U_DQQ/DLY_9.DLY_9_GEN[7].I_SRLT_NE_0.FF
+    RAMB16_X1Y3.DIB1     net (fanout=1)        0.394   ila/U0/I_NO_D.U_ILA/iDATA<7>
+    RAMB16_X1Y3.CLKB     Tbckd       (-Th)     0.126   ila/U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_NO_TB.I_RT1.U_RAM/G_BRAM[3].U_BRAM/ram_rt1_s1_s2_if.ram_rt1_s1_s2_i
+                                                       ila/U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_NO_TB.I_RT1.U_RAM/G_BRAM[3].U_BRAM/ram_rt1_s1_s2_if.ram_rt1_s1_s2_i.B
+    -------------------------------------------------  ---------------------------
+    Total                                      0.742ns (0.348ns logic, 0.394ns route)
+                                                       (46.9% logic, 53.1% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point ila/U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_NO_TB.I_RT1.U_RAM/G_BRAM[1].U_BRAM/ram_rt1_s1_s2_if.ram_rt1_s1_s2_i.B (RAMB16_X1Y1.ADDRB7), 1 path
+--------------------------------------------------------------------------------
+Slack (hold path):      0.887ns (requirement - (clock path skew + uncertainty - data path))
+  Source:               ila/U0/I_NO_D.U_ILA/U_G2_SQ.U_CAPCTRL/U_CAP_ADDRGEN/I_INTCAP.F_CAP_ADDR[6].U_CAP_ADDR (FF)
+  Destination:          ila/U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_NO_TB.I_RT1.U_RAM/G_BRAM[1].U_BRAM/ram_rt1_s1_s2_if.ram_rt1_s1_s2_i.B (RAM)
+  Requirement:          0.000ns
+  Data Path Delay:      0.897ns (Levels of Logic = 0)
+  Clock Path Skew:      0.010ns (0.033 - 0.023)
+  Source Clock:         CLKIN_IBUFG_OUT rising at 20.000ns
+  Destination Clock:    CLKIN_IBUFG_OUT rising at 20.000ns
+  Clock Uncertainty:    0.000ns
+
+  Minimum Data Path: ila/U0/I_NO_D.U_ILA/U_G2_SQ.U_CAPCTRL/U_CAP_ADDRGEN/I_INTCAP.F_CAP_ADDR[6].U_CAP_ADDR to ila/U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_NO_TB.I_RT1.U_RAM/G_BRAM[1].U_BRAM/ram_rt1_s1_s2_if.ram_rt1_s1_s2_i.B
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X55Y17.YQ      Tcko                  0.470   ila/U0/I_NO_D.U_ILA/iCAP_WR_ADDR<7>
+                                                       ila/U0/I_NO_D.U_ILA/U_G2_SQ.U_CAPCTRL/U_CAP_ADDRGEN/I_INTCAP.F_CAP_ADDR[6].U_CAP_ADDR
+    RAMB16_X1Y1.ADDRB7   net (fanout=5)        0.558   ila/U0/I_NO_D.U_ILA/iCAP_WR_ADDR<6>
+    RAMB16_X1Y1.CLKB     Tbcka       (-Th)     0.131   ila/U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_NO_TB.I_RT1.U_RAM/G_BRAM[1].U_BRAM/ram_rt1_s1_s2_if.ram_rt1_s1_s2_i
+                                                       ila/U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_NO_TB.I_RT1.U_RAM/G_BRAM[1].U_BRAM/ram_rt1_s1_s2_if.ram_rt1_s1_s2_i.B
+    -------------------------------------------------  ---------------------------
+    Total                                      0.897ns (0.339ns logic, 0.558ns route)
+                                                       (37.8% logic, 62.2% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point ila/U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_NO_TB.I_RT1.U_RAM/G_BRAM[0].U_BRAM/ram_rt1_s1_s2_if.ram_rt1_s1_s2_i.B (RAMB16_X1Y2.ADDRB4), 1 path
+--------------------------------------------------------------------------------
+Slack (hold path):      0.939ns (requirement - (clock path skew + uncertainty - data path))
+  Source:               ila/U0/I_NO_D.U_ILA/U_G2_SQ.U_CAPCTRL/U_CAP_ADDRGEN/I_INTCAP.F_CAP_ADDR[3].U_CAP_ADDR (FF)
+  Destination:          ila/U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_NO_TB.I_RT1.U_RAM/G_BRAM[0].U_BRAM/ram_rt1_s1_s2_if.ram_rt1_s1_s2_i.B (RAM)
+  Requirement:          0.000ns
+  Data Path Delay:      0.949ns (Levels of Logic = 0)
+  Clock Path Skew:      0.010ns (0.034 - 0.024)
+  Source Clock:         CLKIN_IBUFG_OUT rising at 20.000ns
+  Destination Clock:    CLKIN_IBUFG_OUT rising at 20.000ns
+  Clock Uncertainty:    0.000ns
+
+  Minimum Data Path: ila/U0/I_NO_D.U_ILA/U_G2_SQ.U_CAPCTRL/U_CAP_ADDRGEN/I_INTCAP.F_CAP_ADDR[3].U_CAP_ADDR to ila/U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_NO_TB.I_RT1.U_RAM/G_BRAM[0].U_BRAM/ram_rt1_s1_s2_if.ram_rt1_s1_s2_i.B
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X54Y22.XQ      Tcko                  0.474   ila/U0/I_NO_D.U_ILA/iCAP_WR_ADDR<3>
+                                                       ila/U0/I_NO_D.U_ILA/U_G2_SQ.U_CAPCTRL/U_CAP_ADDRGEN/I_INTCAP.F_CAP_ADDR[3].U_CAP_ADDR
+    RAMB16_X1Y2.ADDRB4   net (fanout=5)        0.606   ila/U0/I_NO_D.U_ILA/iCAP_WR_ADDR<3>
+    RAMB16_X1Y2.CLKB     Tbcka       (-Th)     0.131   ila/U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_NO_TB.I_RT1.U_RAM/G_BRAM[0].U_BRAM/ram_rt1_s1_s2_if.ram_rt1_s1_s2_i
+                                                       ila/U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_NO_TB.I_RT1.U_RAM/G_BRAM[0].U_BRAM/ram_rt1_s1_s2_if.ram_rt1_s1_s2_i.B
+    -------------------------------------------------  ---------------------------
+    Total                                      0.949ns (0.343ns logic, 0.606ns route)
+                                                       (36.1% logic, 63.9% route)
+
+--------------------------------------------------------------------------------
+
+Component Switching Limit Checks: NET "CLKIN_IBUFG_OUT1" PERIOD = 20 ns HIGH 40%;
+--------------------------------------------------------------------------------
+Slack: 12.500ns (period - (min high pulse limit / (high pulse / period)))
+  Period: 20.000ns
+  High pulse: 8.000ns
+  High pulse limit: 3.000ns (Tdcmpw_CLKIN_50_100)
+  Physical resource: instance_name/DCM_SP_INST/CLKIN
+  Logical resource: instance_name/DCM_SP_INST/CLKIN
+  Location pin: DCM_X0Y1.CLKIN
+  Clock network: CLKIN_IBUFG_OUT1
+--------------------------------------------------------------------------------
+Slack: 15.000ns (period - (min low pulse limit / (low pulse / period)))
+  Period: 20.000ns
+  Low pulse: 12.000ns
+  Low pulse limit: 3.000ns (Tdcmpw_CLKIN_50_100)
+  Physical resource: instance_name/DCM_SP_INST/CLKIN
+  Logical resource: instance_name/DCM_SP_INST/CLKIN
+  Location pin: DCM_X0Y1.CLKIN
+  Clock network: CLKIN_IBUFG_OUT1
+--------------------------------------------------------------------------------
+Slack: 15.834ns (period - min period limit)
+  Period: 20.000ns
+  Min period limit: 4.166ns (240.038MHz) (Tdcmpc)
+  Physical resource: instance_name/DCM_SP_INST/CLKIN
+  Logical resource: instance_name/DCM_SP_INST/CLKIN
+  Location pin: DCM_X0Y1.CLKIN
+  Clock network: CLKIN_IBUFG_OUT1
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: PERIOD analysis for net "instance_name/CLKDV_BUF" derived 
+from  NET "CLKIN_IBUFG_OUT1" PERIOD = 20 ns HIGH 40%;  multiplied by 10.00 to 
+200 nS and duty cycle corrected to HIGH 100 nS  
+For more information, see Period Analysis in the Timing Closure User Guide (UG612).
+
+ 837 paths analyzed, 126 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 setup errors, 0 hold errors, 0 component switching limit errors)
+ Minimum period is   7.164ns.
+--------------------------------------------------------------------------------
+
+Paths for end point spi_master/get_count_3 (SLICE_X25Y44.CE), 6 paths
+--------------------------------------------------------------------------------
+Slack (setup path):     192.836ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               debounce/sync_out (FF)
+  Destination:          spi_master/get_count_3 (FF)
+  Requirement:          200.000ns
+  Data Path Delay:      7.164ns (Levels of Logic = 2)
+  Clock Path Skew:      0.000ns
+  Source Clock:         clk rising at 0.000ns
+  Destination Clock:    clk rising at 200.000ns
+  Clock Uncertainty:    0.000ns
+
+  Maximum Data Path: debounce/sync_out to spi_master/get_count_3
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X48Y72.YQ      Tcko                  0.652   debounce/sync_out
+                                                       debounce/sync_out
+    SLICE_X33Y36.G3      net (fanout=9)        2.391   debounce/sync_out
+    SLICE_X33Y36.Y       Tilo                  0.704   spi_master/send_count<2>
+                                                       oneshot/get_rdid_oneshot1
+    SLICE_X32Y41.G4      net (fanout=6)        0.671   get_rdid_oneshot
+    SLICE_X32Y41.Y       Tilo                  0.759   spi_master/get_count_not0001
+                                                       spi_master/get_count_not00011
+    SLICE_X25Y44.CE      net (fanout=4)        1.432   spi_master/get_count_not0001
+    SLICE_X25Y44.CLK     Tceck                 0.555   spi_master/get_count<3>
+                                                       spi_master/get_count_3
+    -------------------------------------------------  ---------------------------
+    Total                                      7.164ns (2.670ns logic, 4.494ns route)
+                                                       (37.3% logic, 62.7% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     194.238ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               oneshot/get_rdid_debounce_q (FF)
+  Destination:          spi_master/get_count_3 (FF)
+  Requirement:          200.000ns
+  Data Path Delay:      5.750ns (Levels of Logic = 2)
+  Clock Path Skew:      -0.012ns (0.042 - 0.054)
+  Source Clock:         clk rising at 0.000ns
+  Destination Clock:    clk rising at 200.000ns
+  Clock Uncertainty:    0.000ns
+
+  Maximum Data Path: oneshot/get_rdid_debounce_q to spi_master/get_count_3
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X31Y45.YQ      Tcko                  0.587   oneshot/get_rdid_debounce_q
+                                                       oneshot/get_rdid_debounce_q
+    SLICE_X33Y36.G2      net (fanout=7)        1.042   oneshot/get_rdid_debounce_q
+    SLICE_X33Y36.Y       Tilo                  0.704   spi_master/send_count<2>
+                                                       oneshot/get_rdid_oneshot1
+    SLICE_X32Y41.G4      net (fanout=6)        0.671   get_rdid_oneshot
+    SLICE_X32Y41.Y       Tilo                  0.759   spi_master/get_count_not0001
+                                                       spi_master/get_count_not00011
+    SLICE_X25Y44.CE      net (fanout=4)        1.432   spi_master/get_count_not0001
+    SLICE_X25Y44.CLK     Tceck                 0.555   spi_master/get_count<3>
+                                                       spi_master/get_count_3
+    -------------------------------------------------  ---------------------------
+    Total                                      5.750ns (2.605ns logic, 3.145ns route)
+                                                       (45.3% logic, 54.7% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     194.997ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               spi_master/current_state_FSM_FFd2 (FF)
+  Destination:          spi_master/get_count_3 (FF)
+  Requirement:          200.000ns
+  Data Path Delay:      4.991ns (Levels of Logic = 2)
+  Clock Path Skew:      -0.012ns (0.042 - 0.054)
+  Source Clock:         clk rising at 0.000ns
+  Destination Clock:    clk rising at 200.000ns
+  Clock Uncertainty:    0.000ns
+
+  Maximum Data Path: spi_master/current_state_FSM_FFd2 to spi_master/get_count_3
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X33Y41.XQ      Tcko                  0.591   spi_master/current_state_FSM_FFd2
+                                                       spi_master/current_state_FSM_FFd2
+    SLICE_X30Y40.F3      net (fanout=8)        0.501   spi_master/current_state_FSM_FFd2
+    SLICE_X30Y40.X       Tilo                  0.759   spi_master/N6
+                                                       spi_master/spisck_mux000011
+    SLICE_X32Y41.G3      net (fanout=2)        0.394   spi_master/N6
+    SLICE_X32Y41.Y       Tilo                  0.759   spi_master/get_count_not0001
+                                                       spi_master/get_count_not00011
+    SLICE_X25Y44.CE      net (fanout=4)        1.432   spi_master/get_count_not0001
+    SLICE_X25Y44.CLK     Tceck                 0.555   spi_master/get_count<3>
+                                                       spi_master/get_count_3
+    -------------------------------------------------  ---------------------------
+    Total                                      4.991ns (2.664ns logic, 2.327ns route)
+                                                       (53.4% logic, 46.6% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point spi_master/get_count_1 (SLICE_X24Y46.CE), 6 paths
+--------------------------------------------------------------------------------
+Slack (setup path):     193.119ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               debounce/sync_out (FF)
+  Destination:          spi_master/get_count_1 (FF)
+  Requirement:          200.000ns
+  Data Path Delay:      6.881ns (Levels of Logic = 2)
+  Clock Path Skew:      0.000ns
+  Source Clock:         clk rising at 0.000ns
+  Destination Clock:    clk rising at 200.000ns
+  Clock Uncertainty:    0.000ns
+
+  Maximum Data Path: debounce/sync_out to spi_master/get_count_1
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X48Y72.YQ      Tcko                  0.652   debounce/sync_out
+                                                       debounce/sync_out
+    SLICE_X33Y36.G3      net (fanout=9)        2.391   debounce/sync_out
+    SLICE_X33Y36.Y       Tilo                  0.704   spi_master/send_count<2>
+                                                       oneshot/get_rdid_oneshot1
+    SLICE_X32Y41.G4      net (fanout=6)        0.671   get_rdid_oneshot
+    SLICE_X32Y41.Y       Tilo                  0.759   spi_master/get_count_not0001
+                                                       spi_master/get_count_not00011
+    SLICE_X24Y46.CE      net (fanout=4)        1.149   spi_master/get_count_not0001
+    SLICE_X24Y46.CLK     Tceck                 0.555   spi_master/get_count<1>
+                                                       spi_master/get_count_1
+    -------------------------------------------------  ---------------------------
+    Total                                      6.881ns (2.670ns logic, 4.211ns route)
+                                                       (38.8% logic, 61.2% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     194.521ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               oneshot/get_rdid_debounce_q (FF)
+  Destination:          spi_master/get_count_1 (FF)
+  Requirement:          200.000ns
+  Data Path Delay:      5.467ns (Levels of Logic = 2)
+  Clock Path Skew:      -0.012ns (0.109 - 0.121)
+  Source Clock:         clk rising at 0.000ns
+  Destination Clock:    clk rising at 200.000ns
+  Clock Uncertainty:    0.000ns
+
+  Maximum Data Path: oneshot/get_rdid_debounce_q to spi_master/get_count_1
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X31Y45.YQ      Tcko                  0.587   oneshot/get_rdid_debounce_q
+                                                       oneshot/get_rdid_debounce_q
+    SLICE_X33Y36.G2      net (fanout=7)        1.042   oneshot/get_rdid_debounce_q
+    SLICE_X33Y36.Y       Tilo                  0.704   spi_master/send_count<2>
+                                                       oneshot/get_rdid_oneshot1
+    SLICE_X32Y41.G4      net (fanout=6)        0.671   get_rdid_oneshot
+    SLICE_X32Y41.Y       Tilo                  0.759   spi_master/get_count_not0001
+                                                       spi_master/get_count_not00011
+    SLICE_X24Y46.CE      net (fanout=4)        1.149   spi_master/get_count_not0001
+    SLICE_X24Y46.CLK     Tceck                 0.555   spi_master/get_count<1>
+                                                       spi_master/get_count_1
+    -------------------------------------------------  ---------------------------
+    Total                                      5.467ns (2.605ns logic, 2.862ns route)
+                                                       (47.6% logic, 52.4% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     195.280ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               spi_master/current_state_FSM_FFd2 (FF)
+  Destination:          spi_master/get_count_1 (FF)
+  Requirement:          200.000ns
+  Data Path Delay:      4.708ns (Levels of Logic = 2)
+  Clock Path Skew:      -0.012ns (0.109 - 0.121)
+  Source Clock:         clk rising at 0.000ns
+  Destination Clock:    clk rising at 200.000ns
+  Clock Uncertainty:    0.000ns
+
+  Maximum Data Path: spi_master/current_state_FSM_FFd2 to spi_master/get_count_1
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X33Y41.XQ      Tcko                  0.591   spi_master/current_state_FSM_FFd2
+                                                       spi_master/current_state_FSM_FFd2
+    SLICE_X30Y40.F3      net (fanout=8)        0.501   spi_master/current_state_FSM_FFd2
+    SLICE_X30Y40.X       Tilo                  0.759   spi_master/N6
+                                                       spi_master/spisck_mux000011
+    SLICE_X32Y41.G3      net (fanout=2)        0.394   spi_master/N6
+    SLICE_X32Y41.Y       Tilo                  0.759   spi_master/get_count_not0001
+                                                       spi_master/get_count_not00011
+    SLICE_X24Y46.CE      net (fanout=4)        1.149   spi_master/get_count_not0001
+    SLICE_X24Y46.CLK     Tceck                 0.555   spi_master/get_count<1>
+                                                       spi_master/get_count_1
+    -------------------------------------------------  ---------------------------
+    Total                                      4.708ns (2.664ns logic, 2.044ns route)
+                                                       (56.6% logic, 43.4% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point spi_master/get_count_0 (SLICE_X24Y46.CE), 6 paths
+--------------------------------------------------------------------------------
+Slack (setup path):     193.119ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               debounce/sync_out (FF)
+  Destination:          spi_master/get_count_0 (FF)
+  Requirement:          200.000ns
+  Data Path Delay:      6.881ns (Levels of Logic = 2)
+  Clock Path Skew:      0.000ns
+  Source Clock:         clk rising at 0.000ns
+  Destination Clock:    clk rising at 200.000ns
+  Clock Uncertainty:    0.000ns
+
+  Maximum Data Path: debounce/sync_out to spi_master/get_count_0
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X48Y72.YQ      Tcko                  0.652   debounce/sync_out
+                                                       debounce/sync_out
+    SLICE_X33Y36.G3      net (fanout=9)        2.391   debounce/sync_out
+    SLICE_X33Y36.Y       Tilo                  0.704   spi_master/send_count<2>
+                                                       oneshot/get_rdid_oneshot1
+    SLICE_X32Y41.G4      net (fanout=6)        0.671   get_rdid_oneshot
+    SLICE_X32Y41.Y       Tilo                  0.759   spi_master/get_count_not0001
+                                                       spi_master/get_count_not00011
+    SLICE_X24Y46.CE      net (fanout=4)        1.149   spi_master/get_count_not0001
+    SLICE_X24Y46.CLK     Tceck                 0.555   spi_master/get_count<1>
+                                                       spi_master/get_count_0
+    -------------------------------------------------  ---------------------------
+    Total                                      6.881ns (2.670ns logic, 4.211ns route)
+                                                       (38.8% logic, 61.2% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     194.521ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               oneshot/get_rdid_debounce_q (FF)
+  Destination:          spi_master/get_count_0 (FF)
+  Requirement:          200.000ns
+  Data Path Delay:      5.467ns (Levels of Logic = 2)
+  Clock Path Skew:      -0.012ns (0.109 - 0.121)
+  Source Clock:         clk rising at 0.000ns
+  Destination Clock:    clk rising at 200.000ns
+  Clock Uncertainty:    0.000ns
+
+  Maximum Data Path: oneshot/get_rdid_debounce_q to spi_master/get_count_0
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X31Y45.YQ      Tcko                  0.587   oneshot/get_rdid_debounce_q
+                                                       oneshot/get_rdid_debounce_q
+    SLICE_X33Y36.G2      net (fanout=7)        1.042   oneshot/get_rdid_debounce_q
+    SLICE_X33Y36.Y       Tilo                  0.704   spi_master/send_count<2>
+                                                       oneshot/get_rdid_oneshot1
+    SLICE_X32Y41.G4      net (fanout=6)        0.671   get_rdid_oneshot
+    SLICE_X32Y41.Y       Tilo                  0.759   spi_master/get_count_not0001
+                                                       spi_master/get_count_not00011
+    SLICE_X24Y46.CE      net (fanout=4)        1.149   spi_master/get_count_not0001
+    SLICE_X24Y46.CLK     Tceck                 0.555   spi_master/get_count<1>
+                                                       spi_master/get_count_0
+    -------------------------------------------------  ---------------------------
+    Total                                      5.467ns (2.605ns logic, 2.862ns route)
+                                                       (47.6% logic, 52.4% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     195.280ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               spi_master/current_state_FSM_FFd2 (FF)
+  Destination:          spi_master/get_count_0 (FF)
+  Requirement:          200.000ns
+  Data Path Delay:      4.708ns (Levels of Logic = 2)
+  Clock Path Skew:      -0.012ns (0.109 - 0.121)
+  Source Clock:         clk rising at 0.000ns
+  Destination Clock:    clk rising at 200.000ns
+  Clock Uncertainty:    0.000ns
+
+  Maximum Data Path: spi_master/current_state_FSM_FFd2 to spi_master/get_count_0
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X33Y41.XQ      Tcko                  0.591   spi_master/current_state_FSM_FFd2
+                                                       spi_master/current_state_FSM_FFd2
+    SLICE_X30Y40.F3      net (fanout=8)        0.501   spi_master/current_state_FSM_FFd2
+    SLICE_X30Y40.X       Tilo                  0.759   spi_master/N6
+                                                       spi_master/spisck_mux000011
+    SLICE_X32Y41.G3      net (fanout=2)        0.394   spi_master/N6
+    SLICE_X32Y41.Y       Tilo                  0.759   spi_master/get_count_not0001
+                                                       spi_master/get_count_not00011
+    SLICE_X24Y46.CE      net (fanout=4)        1.149   spi_master/get_count_not0001
+    SLICE_X24Y46.CLK     Tceck                 0.555   spi_master/get_count<1>
+                                                       spi_master/get_count_0
+    -------------------------------------------------  ---------------------------
+    Total                                      4.708ns (2.664ns logic, 2.044ns route)
+                                                       (56.6% logic, 43.4% route)
+
+--------------------------------------------------------------------------------
+
+Hold Paths: PERIOD analysis for net "instance_name/CLKDV_BUF" derived from
+ NET "CLKIN_IBUFG_OUT1" PERIOD = 20 ns HIGH 40%;
+ multiplied by 10.00 to 200 nS and duty cycle corrected to HIGH 100 nS 
+
+--------------------------------------------------------------------------------
+
+Paths for end point debounce/sync_out (SLICE_X48Y72.BY), 1 path
+--------------------------------------------------------------------------------
+Slack (hold path):      1.224ns (requirement - (clock path skew + uncertainty - data path))
+  Source:               debounce/q_1 (FF)
+  Destination:          debounce/sync_out (FF)
+  Requirement:          0.000ns
+  Data Path Delay:      1.209ns (Levels of Logic = 0)
+  Clock Path Skew:      -0.015ns (0.072 - 0.087)
+  Source Clock:         clk rising at 200.000ns
+  Destination Clock:    clk rising at 200.000ns
+  Clock Uncertainty:    0.000ns
+
+  Minimum Data Path: debounce/q_1 to debounce/sync_out
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X55Y73.YQ      Tcko                  0.470   debounce/q_1
+                                                       debounce/q_1
+    SLICE_X48Y72.BY      net (fanout=1)        0.587   debounce/q_1
+    SLICE_X48Y72.CLK     Tckdi       (-Th)    -0.152   debounce/sync_out
+                                                       debounce/sync_out
+    -------------------------------------------------  ---------------------------
+    Total                                      1.209ns (0.622ns logic, 0.587ns route)
+                                                       (51.4% logic, 48.6% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point spi_master/current_state_FSM_FFd2 (SLICE_X33Y41.F4), 1 path
+--------------------------------------------------------------------------------
+Slack (hold path):      1.368ns (requirement - (clock path skew + uncertainty - data path))
+  Source:               spi_master/current_state_FSM_FFd1 (FF)
+  Destination:          spi_master/current_state_FSM_FFd2 (FF)
+  Requirement:          0.000ns
+  Data Path Delay:      1.368ns (Levels of Logic = 1)
+  Clock Path Skew:      0.000ns
+  Source Clock:         clk rising at 200.000ns
+  Destination Clock:    clk rising at 200.000ns
+  Clock Uncertainty:    0.000ns
+
+  Minimum Data Path: spi_master/current_state_FSM_FFd1 to spi_master/current_state_FSM_FFd2
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X33Y41.YQ      Tcko                  0.470   spi_master/current_state_FSM_FFd2
+                                                       spi_master/current_state_FSM_FFd1
+    SLICE_X33Y41.F4      net (fanout=5)        0.382   spi_master/current_state_FSM_FFd1
+    SLICE_X33Y41.CLK     Tckf        (-Th)    -0.516   spi_master/current_state_FSM_FFd2
+                                                       spi_master/current_state_Out21
+                                                       spi_master/current_state_FSM_FFd2
+    -------------------------------------------------  ---------------------------
+    Total                                      1.368ns (0.986ns logic, 0.382ns route)
+                                                       (72.1% logic, 27.9% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point spi_master/send_count_1 (SLICE_X33Y37.F3), 1 path
+--------------------------------------------------------------------------------
+Slack (hold path):      1.401ns (requirement - (clock path skew + uncertainty - data path))
+  Source:               spi_master/send_count_1 (FF)
+  Destination:          spi_master/send_count_1 (FF)
+  Requirement:          0.000ns
+  Data Path Delay:      1.401ns (Levels of Logic = 1)
+  Clock Path Skew:      0.000ns
+  Source Clock:         clk rising at 200.000ns
+  Destination Clock:    clk rising at 200.000ns
+  Clock Uncertainty:    0.000ns
+
+  Minimum Data Path: spi_master/send_count_1 to spi_master/send_count_1
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X33Y37.XQ      Tcko                  0.473   spi_master/send_count<1>
+                                                       spi_master/send_count_1
+    SLICE_X33Y37.F3      net (fanout=4)        0.412   spi_master/send_count<1>
+    SLICE_X33Y37.CLK     Tckf        (-Th)    -0.516   spi_master/send_count<1>
+                                                       spi_master/Mcount_send_count_xor<1>11
+                                                       spi_master/send_count_1
+    -------------------------------------------------  ---------------------------
+    Total                                      1.401ns (0.989ns logic, 0.412ns route)
+                                                       (70.6% logic, 29.4% route)
+
+--------------------------------------------------------------------------------
+
+Component Switching Limit Checks: PERIOD analysis for net "instance_name/CLKDV_BUF" derived from
+ NET "CLKIN_IBUFG_OUT1" PERIOD = 20 ns HIGH 40%;
+ multiplied by 10.00 to 200 nS and duty cycle corrected to HIGH 100 nS 
+
+--------------------------------------------------------------------------------
+Slack: 193.751ns (period - min period limit)
+  Period: 200.000ns
+  Min period limit: 6.249ns (160.026MHz) (Tdcmpdv)
+  Physical resource: instance_name/DCM_SP_INST/CLKDV
+  Logical resource: instance_name/DCM_SP_INST/CLKDV
+  Location pin: DCM_X0Y1.CLKDV
+  Clock network: instance_name/CLKDV_BUF
+--------------------------------------------------------------------------------
+Slack: 198.348ns (period - (min low pulse limit / (low pulse / period)))
+  Period: 200.000ns
+  Low pulse: 100.000ns
+  Low pulse limit: 0.826ns (Tcl)
+  Physical resource: spi_master/current_state_FSM_FFd3/CLK
+  Logical resource: spi_master/current_state_FSM_FFd3/CK
+  Location pin: SLICE_X32Y36.CLK
+  Clock network: clk
+--------------------------------------------------------------------------------
+Slack: 198.348ns (period - (min high pulse limit / (high pulse / period)))
+  Period: 200.000ns
+  High pulse: 100.000ns
+  High pulse limit: 0.826ns (Tch)
+  Physical resource: spi_master/current_state_FSM_FFd3/CLK
+  Logical resource: spi_master/current_state_FSM_FFd3/CK
+  Location pin: SLICE_X32Y36.CLK
+  Clock network: clk
+--------------------------------------------------------------------------------
+
+
+Derived Constraint Report
+Derived Constraints for CLKIN_IBUFG_OUT1
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|                               |   Period    |       Actual Period       |      Timing Errors        |      Paths Analyzed       |
+|           Constraint          | Requirement |-------------+-------------|-------------+-------------|-------------+-------------|
+|                               |             |   Direct    | Derivative  |   Direct    | Derivative  |   Direct    | Derivative  |
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|CLKIN_IBUFG_OUT1               |     20.000ns|      7.500ns|      0.716ns|            0|            0|         1126|          837|
+| instance_name/CLKDV_BUF       |    200.000ns|      7.164ns|          N/A|            0|            0|          837|            0|
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+
+All constraints were met.
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Clock to Setup on destination clock CCLK
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+CCLK           |    7.233|         |         |         |
+---------------+---------+---------+---------+---------+
+
+
+Timing summary:
+---------------
+
+Timing errors: 0  Score: 0  (Setup/Max: 0, Hold: 0)
+
+Constraints cover 1963 paths, 0 nets, and 949 connections
+
+Design statistics:
+   Minimum period:   7.500ns{1}   (Maximum frequency: 133.333MHz)
+
+
+------------------------------------Footnotes-----------------------------------
+1)  The minimum period statistic assumes all single cycle delays.
+
+Analysis completed Wed Mar 09 18:45:57 2016 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 171 MB
+
+
+

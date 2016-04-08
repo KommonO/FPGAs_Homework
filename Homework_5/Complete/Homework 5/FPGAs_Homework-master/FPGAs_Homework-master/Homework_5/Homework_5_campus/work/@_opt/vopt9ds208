@@ -1,0 +1,264 @@
+m255
+K3
+13
+cModel Technology
+dZ:\Spring 2016\fpgas\Homework 5\FPGAs_Homework-master\FPGAs_Homework-master\Homework_5
+T_opt
+VGRXoJ^S8QNQPjX6dDMc1i2
+04 13 4 work spi_master_tb fast 0
+=1-002564a3351e-56e0a3e3-34c-1ddc
+o-quiet -auto_acc_if_foreign -work work
+n@_opt
+OL;O;10.1c;51
+vacdc_check
+I[`?Z5lkIL]jK^?VD6[UTM0
+VNeNS:hT^XMYWkh45K=m1Y1
+Z0 dZ:\Spring 2016\fpgas\Homework 5\FPGAs_Homework-master\FPGAs_Homework-master\Homework_5\Homework_5_campus
+w1457542860
+8Z:/Spring 2016/fpgas/Homework 5/FPGAs_Homework-master/FPGAs_Homework-master/Homework_5/Homework_5_campus/acdc_check.v
+FZ:/Spring 2016/fpgas/Homework 5/FPGAs_Homework-master/FPGAs_Homework-master/Homework_5/Homework_5_campus/acdc_check.v
+L0 20
+Z1 OL;L;10.1c;51
+r1
+31
+Z2 o-work work -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+!s100 Sa5nZCSXl[8W[R?CmQz`i2
+!s90 -reportprogress|300|-work|work|-vopt|Z:/Spring 2016/fpgas/Homework 5/FPGAs_Homework-master/FPGAs_Homework-master/Homework_5/Homework_5_campus/acdc_check.v|
+!i10b 1
+!s85 0
+!s108 1457562587.779000
+!s107 parameter.v|Z:/Spring 2016/fpgas/Homework 5/FPGAs_Homework-master/FPGAs_Homework-master/Homework_5/Homework_5_campus/acdc_check.v|
+vdebounce
+I5]^g_`F<KMli1;Ya_fkgi3
+VIHg?8TRP3WGg73[cQ05a21
+Z3 dZ:\Spring 2016\fpgas\Homework 5\FPGAs_Homework-master\FPGAs_Homework-master\Homework_5\Homework_5_campus
+w1457554839
+8Z:/Spring 2016/fpgas/Homework 5/FPGAs_Homework-master/FPGAs_Homework-master/Homework_5/Homework_5_campus/debounce.v
+FZ:/Spring 2016/fpgas/Homework 5/FPGAs_Homework-master/FPGAs_Homework-master/Homework_5/Homework_5_campus/debounce.v
+L0 3
+R1
+r1
+31
+R2
+!s100 ECl]QFHaF<>E<_DPJ5XaN2
+!s90 -reportprogress|300|-work|work|-vopt|Z:/Spring 2016/fpgas/Homework 5/FPGAs_Homework-master/FPGAs_Homework-master/Homework_5/Homework_5_campus/debounce.v|
+!s108 1457562587.454000
+!s107 Z:/Spring 2016/fpgas/Homework 5/FPGAs_Homework-master/FPGAs_Homework-master/Homework_5/Homework_5_campus/debounce.v|
+!i10b 1
+!s85 0
+vdebounce_tb
+I_4FOmNHANIQ0kb2Jekba?0
+Vn9aIbS=@H<D7_^=EA;6;E2
+R3
+w1457542869
+8Z:/Spring 2016/fpgas/Homework 5/FPGAs_Homework-master/FPGAs_Homework-master/Homework_5/Homework_5_campus/debounce_tb.v
+FZ:/Spring 2016/fpgas/Homework 5/FPGAs_Homework-master/FPGAs_Homework-master/Homework_5/Homework_5_campus/debounce_tb.v
+L0 2
+R1
+r1
+31
+R2
+!s100 7jo43>_:oeOiB`JaQP`>f0
+!s90 -reportprogress|300|-work|work|-vopt|Z:/Spring 2016/fpgas/Homework 5/FPGAs_Homework-master/FPGAs_Homework-master/Homework_5/Homework_5_campus/debounce_tb.v|
+!s108 1457562587.129000
+!s107 Z:/Spring 2016/fpgas/Homework 5/FPGAs_Homework-master/FPGAs_Homework-master/Homework_5/Homework_5_campus/debounce_tb.v|
+!i10b 1
+!s85 0
+vinternal_logic
+I2]NY2;1Mk0K1Y8^AJ=SAO0
+V8iF6U8l3oTc5OIhBXJO;K2
+R3
+w1457542810
+8Z:/Spring 2016/fpgas/Homework 5/FPGAs_Homework-master/FPGAs_Homework-master/Homework_5/Homework_5_campus/internal_logic.v
+FZ:/Spring 2016/fpgas/Homework 5/FPGAs_Homework-master/FPGAs_Homework-master/Homework_5/Homework_5_campus/internal_logic.v
+L0 20
+R1
+r1
+31
+R2
+!s100 LVYScMZPccF5aMQg<JhHP2
+!s90 -reportprogress|300|-work|work|-vopt|Z:/Spring 2016/fpgas/Homework 5/FPGAs_Homework-master/FPGAs_Homework-master/Homework_5/Homework_5_campus/internal_logic.v|
+!s108 1457562586.797000
+!s107 parameter.v|Z:/Spring 2016/fpgas/Homework 5/FPGAs_Homework-master/FPGAs_Homework-master/Homework_5/Homework_5_campus/internal_logic.v|
+!i10b 1
+!s85 0
+vm25p16
+Ie=hCDC6YRWC`V^H0J:07c3
+VYk@422]>N4[nYLf5V3^P?1
+R3
+w1457542760
+8Z:/Spring 2016/fpgas/Homework 5/FPGAs_Homework-master/FPGAs_Homework-master/Homework_5/Homework_5_campus/m25p16.v
+FZ:/Spring 2016/fpgas/Homework 5/FPGAs_Homework-master/FPGAs_Homework-master/Homework_5/Homework_5_campus/m25p16.v
+L0 20
+R1
+r1
+31
+R2
+!s100 2g[;MAI9IRg@mmk]04<bg3
+!s90 -reportprogress|300|-work|work|-vopt|Z:/Spring 2016/fpgas/Homework 5/FPGAs_Homework-master/FPGAs_Homework-master/Homework_5/Homework_5_campus/m25p16.v|
+!s108 1457562586.479000
+!s107 parameter.v|Z:/Spring 2016/fpgas/Homework 5/FPGAs_Homework-master/FPGAs_Homework-master/Homework_5/Homework_5_campus/m25p16.v|
+!i10b 1
+!s85 0
+vm25p16_driver
+I1nB[@:XQL3ZT`;OO;43?b3
+Vda_I5_;N_3jj2lm6VGo5a2
+R3
+w1457542734
+8Z:/Spring 2016/fpgas/Homework 5/FPGAs_Homework-master/FPGAs_Homework-master/Homework_5/Homework_5_campus/m25p16_driver.v
+FZ:/Spring 2016/fpgas/Homework 5/FPGAs_Homework-master/FPGAs_Homework-master/Homework_5/Homework_5_campus/m25p16_driver.v
+L0 20
+R1
+r1
+31
+R2
+!s100 ORJ6J^^^6;3V@n?YN;D1=0
+!s90 -reportprogress|300|-work|work|-vopt|Z:/Spring 2016/fpgas/Homework 5/FPGAs_Homework-master/FPGAs_Homework-master/Homework_5/Homework_5_campus/m25p16_driver.v|
+!s108 1457562586.103000
+!s107 parameter.v|Z:/Spring 2016/fpgas/Homework 5/FPGAs_Homework-master/FPGAs_Homework-master/Homework_5/Homework_5_campus/m25p16_driver.v|
+!i10b 1
+!s85 0
+vmemory_access
+I@Tjk@X0[5zEP^`R0c:SKB3
+VOQ5egcTzG50Nhg34^HFI52
+R3
+w1457542664
+8Z:/Spring 2016/fpgas/Homework 5/FPGAs_Homework-master/FPGAs_Homework-master/Homework_5/Homework_5_campus/memory_access.v
+FZ:/Spring 2016/fpgas/Homework 5/FPGAs_Homework-master/FPGAs_Homework-master/Homework_5/Homework_5_campus/memory_access.v
+L0 20
+R1
+r1
+31
+R2
+!s100 X@5VC5[gL5Cm7_W[[j]BQ3
+!s90 -reportprogress|300|-work|work|-vopt|Z:/Spring 2016/fpgas/Homework 5/FPGAs_Homework-master/FPGAs_Homework-master/Homework_5/Homework_5_campus/memory_access.v|
+!s108 1457562585.345000
+!s107 parameter.v|Z:/Spring 2016/fpgas/Homework 5/FPGAs_Homework-master/FPGAs_Homework-master/Homework_5/Homework_5_campus/memory_access.v|
+!i10b 1
+!s85 0
+voneshot
+IU:IgWka0bmdaXND_AVfAi1
+V0GZQPO^kcicMXibgU88Oj0
+R3
+w1457542544
+8Z:/Spring 2016/fpgas/Homework 5/FPGAs_Homework-master/FPGAs_Homework-master/Homework_5/Homework_5_campus/oneshot.v
+FZ:/Spring 2016/fpgas/Homework 5/FPGAs_Homework-master/FPGAs_Homework-master/Homework_5/Homework_5_campus/oneshot.v
+L0 3
+R1
+r1
+31
+R2
+!s100 FSVGWk03[Al=X[DL7od8[3
+!s90 -reportprogress|300|-work|work|-vopt|Z:/Spring 2016/fpgas/Homework 5/FPGAs_Homework-master/FPGAs_Homework-master/Homework_5/Homework_5_campus/oneshot.v|
+!s108 1457562583.820000
+!s107 Z:/Spring 2016/fpgas/Homework 5/FPGAs_Homework-master/FPGAs_Homework-master/Homework_5/Homework_5_campus/oneshot.v|
+!i10b 1
+!s85 0
+vspi_master
+I?9K8OSCPVz@fTP>6mAk_c2
+VN2@OFAcR:1?Y^S2f@C46i0
+R3
+w1457562223
+8Z:/Spring 2016/fpgas/Homework 5/FPGAs_Homework-master/FPGAs_Homework-master/Homework_5/Homework_5_campus/spi_master.v
+FZ:/Spring 2016/fpgas/Homework 5/FPGAs_Homework-master/FPGAs_Homework-master/Homework_5/Homework_5_campus/spi_master.v
+L0 3
+R1
+r1
+31
+R2
+!s90 -reportprogress|300|-work|work|-vopt|Z:/Spring 2016/fpgas/Homework 5/FPGAs_Homework-master/FPGAs_Homework-master/Homework_5/Homework_5_campus/spi_master.v|
+!s100 TcSA_z6J:JW9PCaEhlNSM2
+!s108 1457562582.522000
+!s107 Z:/Spring 2016/fpgas/Homework 5/FPGAs_Homework-master/FPGAs_Homework-master/Homework_5/Homework_5_campus/spi_master.v|
+!i10b 1
+!s85 0
+vspi_master_tb
+IHo<WaP9Zb<HjDi6cJGHLB3
+VGVIa@54JI5PLOVOW3THe=0
+R3
+w1457542520
+8Z:/Spring 2016/fpgas/Homework 5/FPGAs_Homework-master/FPGAs_Homework-master/Homework_5/Homework_5_campus/spi_master_tb.v
+FZ:/Spring 2016/fpgas/Homework 5/FPGAs_Homework-master/FPGAs_Homework-master/Homework_5/Homework_5_campus/spi_master_tb.v
+L0 4
+R1
+r1
+31
+R2
+!s100 i4;C9aREHH<J_n?JlAkQY1
+!s90 -reportprogress|300|-work|work|-vopt|Z:/Spring 2016/fpgas/Homework 5/FPGAs_Homework-master/FPGAs_Homework-master/Homework_5/Homework_5_campus/spi_master_tb.v|
+!s108 1457562583.416000
+!s107 Z:/Spring 2016/fpgas/Homework 5/FPGAs_Homework-master/FPGAs_Homework-master/Homework_5/Homework_5_campus/spi_master_tb.v|
+!i10b 1
+!s85 0
+vspi_mux
+IO2bBc`FIS[44T9iOcL5eh2
+VlKN2ife^]S?Iz56?keM@<3
+R3
+w1457542566
+8Z:/Spring 2016/fpgas/Homework 5/FPGAs_Homework-master/FPGAs_Homework-master/Homework_5/Homework_5_campus/spi_mux.v
+FZ:/Spring 2016/fpgas/Homework 5/FPGAs_Homework-master/FPGAs_Homework-master/Homework_5/Homework_5_campus/spi_mux.v
+L0 3
+R1
+r1
+31
+R2
+!s100 jS0V]SJd7VJY8HbK;?kP00
+!s90 -reportprogress|300|-work|work|-vopt|Z:/Spring 2016/fpgas/Homework 5/FPGAs_Homework-master/FPGAs_Homework-master/Homework_5/Homework_5_campus/spi_mux.v|
+!s108 1457562584.216000
+!s107 Z:/Spring 2016/fpgas/Homework 5/FPGAs_Homework-master/FPGAs_Homework-master/Homework_5/Homework_5_campus/spi_mux.v|
+!i10b 1
+!s85 0
+vspi_mux_tb
+I5[2<7YVA7SbO8G;5@_K>S0
+V]SSzWAbOz2zoDY7ZVCh5i1
+R3
+w1457542599
+8Z:/Spring 2016/fpgas/Homework 5/FPGAs_Homework-master/FPGAs_Homework-master/Homework_5/Homework_5_campus/spi_mux_tb.v
+FZ:/Spring 2016/fpgas/Homework 5/FPGAs_Homework-master/FPGAs_Homework-master/Homework_5/Homework_5_campus/spi_mux_tb.v
+L0 1
+R1
+r1
+31
+R2
+!s100 hQ2_e0;9HH>mZn735=gIb3
+!s90 -reportprogress|300|-work|work|-vopt|Z:/Spring 2016/fpgas/Homework 5/FPGAs_Homework-master/FPGAs_Homework-master/Homework_5/Homework_5_campus/spi_mux_tb.v|
+!s108 1457562584.607000
+!s107 Z:/Spring 2016/fpgas/Homework 5/FPGAs_Homework-master/FPGAs_Homework-master/Homework_5/Homework_5_campus/spi_mux_tb.v|
+!i10b 1
+!s85 0
+vspi_wrapper
+I986QnWce=:mbGTdR>;mML3
+V;iIkjT<BVX[NTLGAdBZH80
+R3
+w1457554267
+8Z:/Spring 2016/fpgas/Homework 5/FPGAs_Homework-master/FPGAs_Homework-master/Homework_5/Homework_5_campus/spi_wrapper.v
+FZ:/Spring 2016/fpgas/Homework 5/FPGAs_Homework-master/FPGAs_Homework-master/Homework_5/Homework_5_campus/spi_wrapper.v
+L0 9
+R1
+r1
+31
+R2
+!s100 Y?DjCicadC3667lz<1G=O0
+!s90 -reportprogress|300|-work|work|-vopt|Z:/Spring 2016/fpgas/Homework 5/FPGAs_Homework-master/FPGAs_Homework-master/Homework_5/Homework_5_campus/spi_wrapper.v|
+!s108 1457562584.974000
+!s107 Z:/Spring 2016/fpgas/Homework 5/FPGAs_Homework-master/FPGAs_Homework-master/Homework_5/Homework_5_campus/spi_wrapper.v|
+!i10b 1
+!s85 0
+vtestbench
+IdPhP^aHWXOTPDD;hT49;a2
+VhGfW:390DM[oDMzegDH9`2
+R3
+w1457542710
+8Z:/Spring 2016/fpgas/Homework 5/FPGAs_Homework-master/FPGAs_Homework-master/Homework_5/Homework_5_campus/testbench.v
+FZ:/Spring 2016/fpgas/Homework 5/FPGAs_Homework-master/FPGAs_Homework-master/Homework_5/Homework_5_campus/testbench.v
+L0 19
+R1
+r1
+31
+R2
+!s100 l6Gc8QdoOFR;Sl]YPjF462
+!s90 -reportprogress|300|-work|work|-vopt|Z:/Spring 2016/fpgas/Homework 5/FPGAs_Homework-master/FPGAs_Homework-master/Homework_5/Homework_5_campus/testbench.v|
+!s108 1457562585.701000
+!s107 Z:/Spring 2016/fpgas/Homework 5/FPGAs_Homework-master/FPGAs_Homework-master/Homework_5/Homework_5_campus/testbench.v|
+!i10b 1
+!s85 0

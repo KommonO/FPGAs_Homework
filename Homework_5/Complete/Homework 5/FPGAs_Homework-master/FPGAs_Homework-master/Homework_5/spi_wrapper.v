@@ -1,0 +1,21 @@
+//Wrapper module to tie in all necessary modules
+//According to the diagram, there are at LEAST 3 inputs
+//BTN1, BTN0, and CCLK
+//CCLK is the onboard crystal clock
+//We may have to have additional I/O for the multiplexer seen in the diagram
+//Looks like switch 0 and switch 1 will have to be the switches on the board
+module spi_wrapper(input BTN1, BTN0, CCLK, output reg [7:0] LED);
+
+//instantiate spi_master
+spi_master spi_master();
+
+//instantiate clock divider
+//clock divider defined in Xilinx
+
+
+//instantiate debouncer
+debounce debounce(.clk(clk), .rst(rst), .get_rdid(get_rdid), .get_rdid_debounce(.get_rdid_debounce));
+
+//instantiate oneshot
+oneshot oneshot(.get_rdid_debounce(get_rdid_debounce), .rst(rst), .clk(clk), .get_rdid_oneshot(get_rdid_oneshot));
+endmodule 

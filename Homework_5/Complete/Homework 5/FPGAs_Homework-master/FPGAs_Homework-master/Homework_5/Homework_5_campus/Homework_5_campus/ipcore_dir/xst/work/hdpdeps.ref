@@ -1,0 +1,15 @@
+V3 10
+FL "//excelsior/uk$/kousley/Spring 2016/fpgas/Homework 5/FPGAs_Homework-master/FPGAs_Homework-master/Homework_5/Homework_5_campus/Homework_5_campus/ipcore_dir/tmp/_cg/_bbx/icon.vhd" 2016/03/09.10:44:17 P.20131013
+EN work/icon 1457545544 \
+      FL "//excelsior/uk$/kousley/Spring 2016/fpgas/Homework 5/FPGAs_Homework-master/FPGAs_Homework-master/Homework_5/Homework_5_campus/Homework_5_campus/ipcore_dir/tmp/_cg/_bbx/icon.vhd" \
+      PB ieee/std_logic_1164 1381692176 LB chipscope_icon_v1_06_a
+AR work/icon/spartan3e 1457545545 \
+      FL "//excelsior/uk$/kousley/Spring 2016/fpgas/Homework 5/FPGAs_Homework-master/FPGAs_Homework-master/Homework_5/Homework_5_campus/Homework_5_campus/ipcore_dir/tmp/_cg/_bbx/icon.vhd" \
+      EN work/icon 1457545544 CP chipscope_icon_v1_06_a/chipscope_icon
+FL "//excelsior/uk$/kousley/Spring 2016/fpgas/Homework 5/FPGAs_Homework-master/FPGAs_Homework-master/Homework_5/Homework_5_campus/Homework_5_campus/ipcore_dir/tmp/_cg/_bbx/ila.vhd" 2016/03/09.10:50:21 P.20131013
+EN work/ila 1457546174 \
+      FL "//excelsior/uk$/kousley/Spring 2016/fpgas/Homework 5/FPGAs_Homework-master/FPGAs_Homework-master/Homework_5/Homework_5_campus/Homework_5_campus/ipcore_dir/tmp/_cg/_bbx/ila.vhd" \
+      PB ieee/std_logic_1164 1381692176 LB chipscope_ila_v1_05_a
+AR work/ila/spartan3e 1457546175 \
+      FL "//excelsior/uk$/kousley/Spring 2016/fpgas/Homework 5/FPGAs_Homework-master/FPGAs_Homework-master/Homework_5/Homework_5_campus/Homework_5_campus/ipcore_dir/tmp/_cg/_bbx/ila.vhd" \
+      EN work/ila 1457546174 CP chipscope_ila_v1_05_a/chipscope_ila

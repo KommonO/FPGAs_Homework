@@ -1,0 +1,765 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.15 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.15 secs
+ 
+--> Reading design: spi_wrapper.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "spi_wrapper.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "spi_wrapper"
+Output Format                      : NGC
+Target Device                      : xc3s500e-4-fg320
+
+---- Source Options
+Top Module Name                    : spi_wrapper
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+---- Other Options
+Cores Search Directories           : {"ipcore_dir"  }
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "../spi_mux.v" in library work
+Compiling verilog file "../spi_master.v" in library work
+Module <spi_mux> compiled
+WARNING:HDLCompilers:298 - "../spi_master.v" line 57 Too many digits specified in decimal constant
+Compiling verilog file "../oneshot.v" in library work
+Module <spi_master> compiled
+Compiling verilog file "ipcore_dir/ila.v" in library work
+Module <oneshot> compiled
+Compiling verilog file "ipcore_dir/icon.v" in library work
+Module <ila> compiled
+Compiling verilog file "clock_divider.v" in library work
+Module <icon> compiled
+Compiling verilog file "../debounce.v" in library work
+Module <clock_divider> compiled
+Compiling verilog file "../spi_wrapper.v" in library work
+Module <debounce> compiled
+Module <spi_wrapper> compiled
+No errors in compilation
+Analysis of file <"spi_wrapper.prj"> succeeded.
+ 
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for module <spi_wrapper> in library <work>.
+
+Analyzing hierarchy for module <clock_divider> in library <work>.
+
+Analyzing hierarchy for module <spi_master> in library <work> with parameters.
+	ASSERT_CS = "001"
+	DEASSERT_CS = "100"
+	GET_COUNT_MAX = "11000"
+	GET_DATA = "011"
+	IDLE = "000"
+	RDID_CODE = "10011111"
+	SEND_COUNT_MAX = "111"
+	SEND_INSTRUCTION = "010"
+
+Analyzing hierarchy for module <debounce> in library <work>.
+
+Analyzing hierarchy for module <oneshot> in library <work>.
+
+Analyzing hierarchy for module <spi_mux> in library <work> with parameters.
+	FF = "11"
+	FF_IN = "11111111"
+	MAN_ID = "10"
+	MEM_CAP = "00"
+	MEM_TYPE = "01"
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <spi_wrapper>.
+WARNING:Xst:2211 - "ipcore_dir/icon.v" line 49: Instantiating black box module <icon>.
+WARNING:Xst:2211 - "ipcore_dir/ila.v" line 54: Instantiating black box module <ila>.
+Module <spi_wrapper> is correct for synthesis.
+ 
+    Set user-defined property "SYN_BLACK_BOX =  1" for instance <icon> in unit <spi_wrapper>.
+    Set user-defined property "SYN_NOPRUNE =  1" for instance <icon> in unit <spi_wrapper>.
+    Set user-defined property "SYN_BLACK_BOX =  1" for instance <ila> in unit <spi_wrapper>.
+    Set user-defined property "SYN_NOPRUNE =  1" for instance <ila> in unit <spi_wrapper>.
+Analyzing module <clock_divider> in library <work>.
+Module <clock_divider> is correct for synthesis.
+ 
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <CLKIN_IBUFG_INST> in unit <clock_divider>.
+    Set user-defined property "IBUF_DELAY_VALUE =  0" for instance <CLKIN_IBUFG_INST> in unit <clock_divider>.
+    Set user-defined property "IBUF_LOW_PWR =  TRUE" for instance <CLKIN_IBUFG_INST> in unit <clock_divider>.
+    Set user-defined property "IOSTANDARD =  DEFAULT" for instance <CLKIN_IBUFG_INST> in unit <clock_divider>.
+    Set user-defined property "CLKDV_DIVIDE =  10.000000" for instance <DCM_SP_INST> in unit <clock_divider>.
+    Set user-defined property "CLKFX_DIVIDE =  1" for instance <DCM_SP_INST> in unit <clock_divider>.
+    Set user-defined property "CLKFX_MULTIPLY =  4" for instance <DCM_SP_INST> in unit <clock_divider>.
+    Set user-defined property "CLKIN_DIVIDE_BY_2 =  FALSE" for instance <DCM_SP_INST> in unit <clock_divider>.
+    Set user-defined property "CLKIN_PERIOD =  20.000000" for instance <DCM_SP_INST> in unit <clock_divider>.
+    Set user-defined property "CLKOUT_PHASE_SHIFT =  NONE" for instance <DCM_SP_INST> in unit <clock_divider>.
+    Set user-defined property "CLK_FEEDBACK =  1X" for instance <DCM_SP_INST> in unit <clock_divider>.
+    Set user-defined property "DESKEW_ADJUST =  SYSTEM_SYNCHRONOUS" for instance <DCM_SP_INST> in unit <clock_divider>.
+    Set user-defined property "DFS_FREQUENCY_MODE =  LOW" for instance <DCM_SP_INST> in unit <clock_divider>.
+    Set user-defined property "DLL_FREQUENCY_MODE =  LOW" for instance <DCM_SP_INST> in unit <clock_divider>.
+    Set user-defined property "DSS_MODE =  NONE" for instance <DCM_SP_INST> in unit <clock_divider>.
+    Set user-defined property "DUTY_CYCLE_CORRECTION =  TRUE" for instance <DCM_SP_INST> in unit <clock_divider>.
+    Set user-defined property "FACTORY_JF =  C080" for instance <DCM_SP_INST> in unit <clock_divider>.
+    Set user-defined property "PHASE_SHIFT =  0" for instance <DCM_SP_INST> in unit <clock_divider>.
+    Set user-defined property "STARTUP_WAIT =  FALSE" for instance <DCM_SP_INST> in unit <clock_divider>.
+    Set property "SYN_NOPRUNE = 1" for unit <icon>.
+    Set property "SYN_NOPRUNE = 1" for unit <ila>.
+Analyzing module <spi_master> in library <work>.
+	ASSERT_CS = 3'b001
+	DEASSERT_CS = 3'b100
+	GET_COUNT_MAX = 5'b11000
+	GET_DATA = 3'b011
+	IDLE = 3'b000
+	RDID_CODE = 8'b10011111
+	SEND_COUNT_MAX = 3'b111
+	SEND_INSTRUCTION = 3'b010
+WARNING:Xst:905 - "../spi_master.v" line 60: One or more signals are missing in the sensitivity list of always block. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+   <send_count>, <get_count>
+Module <spi_master> is correct for synthesis.
+ 
+Analyzing module <debounce> in library <work>.
+Module <debounce> is correct for synthesis.
+ 
+Analyzing module <oneshot> in library <work>.
+Module <oneshot> is correct for synthesis.
+ 
+Analyzing module <spi_mux> in library <work>.
+	FF = 2'b11
+	FF_IN = 8'b11111111
+	MAN_ID = 2'b10
+	MEM_CAP = 2'b00
+	MEM_TYPE = 2'b01
+Module <spi_mux> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <spi_master>.
+    Related source file is "../spi_master.v".
+WARNING:Xst:1780 - Signal <CONTROL0> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <CLKIN_IBUFG_OUT> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <ASCII_next_state> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <ASCII_current_state> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+    Found finite state machine <FSM_0> for signal <current_state>.
+    -----------------------------------------------------------------------
+    | States             | 5                                              |
+    | Transitions        | 8                                              |
+    | Inputs             | 3                                              |
+    | Outputs            | 3                                              |
+    | Clock              | clk                       (rising_edge)        |
+    | Reset              | rst                       (positive)           |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | 000                                            |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 8x1-bit ROM for signal <$COND_3>.
+    Found 1-bit register for signal <spisck>.
+    Found 1-bit register for signal <chip_select>.
+    Found 5-bit down counter for signal <get_count>.
+    Found 24-bit register for signal <read_data>.
+    Found 3-bit down counter for signal <send_count>.
+    Summary:
+	inferred   1 Finite State Machine(s).
+	inferred   1 ROM(s).
+	inferred   2 Counter(s).
+	inferred  26 D-type flip-flop(s).
+Unit <spi_master> synthesized.
+
+
+Synthesizing Unit <debounce>.
+    Related source file is "../debounce.v".
+    Found 1-bit register for signal <sync_out>.
+    Found 15-bit up counter for signal <count>.
+    Found 1-bit register for signal <q_1>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   2 D-type flip-flop(s).
+Unit <debounce> synthesized.
+
+
+Synthesizing Unit <oneshot>.
+    Related source file is "../oneshot.v".
+    Found 1-bit register for signal <get_rdid_debounce_q>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+Unit <oneshot> synthesized.
+
+
+Synthesizing Unit <spi_mux>.
+    Related source file is "../spi_mux.v".
+    Found 8-bit 4-to-1 multiplexer for signal <LED>.
+    Summary:
+	inferred   8 Multiplexer(s).
+Unit <spi_mux> synthesized.
+
+
+Synthesizing Unit <clock_divider>.
+    Related source file is "clock_divider.v".
+Unit <clock_divider> synthesized.
+
+
+Synthesizing Unit <spi_wrapper>.
+    Related source file is "../spi_wrapper.v".
+WARNING:Xst:1780 - Signal <CONTROL> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+Unit <spi_wrapper> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 1
+ 8x1-bit ROM                                           : 1
+# Counters                                             : 4
+ 15-bit up counter                                     : 2
+ 3-bit down counter                                    : 1
+ 5-bit down counter                                    : 1
+# Registers                                            : 31
+ 1-bit register                                        : 31
+# Multiplexers                                         : 1
+ 8-bit 4-to-1 multiplexer                              : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Analyzing FSM <FSM_0> for best encoding.
+Optimizing FSM <spi_master/current_state/FSM> on signal <current_state[1:3]> with gray encoding.
+-------------------
+ State | Encoding
+-------------------
+ 000   | 000
+ 001   | 001
+ 010   | 011
+ 011   | 010
+ 100   | 110
+-------------------
+Reading core <ipcore_dir/icon.ngc>.
+Reading core <ipcore_dir/ila.ngc>.
+Loading core <icon> for timing and area information for instance <icon>.
+Loading core <ila> for timing and area information for instance <ila>.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# FSMs                                                 : 1
+# ROMs                                                 : 1
+ 8x1-bit ROM                                           : 1
+# Counters                                             : 4
+ 15-bit up counter                                     : 2
+ 3-bit down counter                                    : 1
+ 5-bit down counter                                    : 1
+# Registers                                            : 31
+ Flip-Flops                                            : 31
+# Multiplexers                                         : 1
+ 8-bit 4-to-1 multiplexer                              : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <spi_wrapper> ...
+
+Optimizing unit <spi_master> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block spi_wrapper, actual ratio is 6.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 72
+ Flip-Flops                                            : 72
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : spi_wrapper.ngr
+Top Level Output File Name         : spi_wrapper
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 22
+
+Cell Usage :
+# BELS                             : 608
+#      GND                         : 3
+#      INV                         : 9
+#      LUT1                        : 88
+#      LUT2                        : 75
+#      LUT2_L                      : 1
+#      LUT3                        : 77
+#      LUT3_L                      : 1
+#      LUT4                        : 116
+#      LUT4_L                      : 2
+#      MUXCY                       : 28
+#      MUXCY_L                     : 67
+#      MUXF5                       : 39
+#      MUXF6                       : 9
+#      VCC                         : 3
+#      XORCY                       : 90
+# FlipFlops/Latches                : 302
+#      FD                          : 8
+#      FDC                         : 36
+#      FDCE                        : 54
+#      FDE                         : 35
+#      FDP                         : 10
+#      FDPE                        : 15
+#      FDR                         : 51
+#      FDRE                        : 78
+#      FDRS                        : 4
+#      FDS                         : 10
+#      LDC                         : 1
+# RAMS                             : 5
+#      RAMB16_S1_S2                : 5
+# Shift Registers                  : 61
+#      SRL16                       : 8
+#      SRL16E                      : 1
+#      SRLC16E                     : 52
+# Clock Buffers                    : 5
+#      BUFG                        : 5
+# IO Buffers                       : 22
+#      IBUF                        : 5
+#      IBUFG                       : 1
+#      OBUF                        : 16
+# DCMs                             : 1
+#      DCM_SP                      : 1
+# Others                           : 1
+#      BSCAN_SPARTAN3              : 1
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500efg320-4 
+
+ Number of Slices:                      311  out of   4656     6%  
+ Number of Slice Flip Flops:            302  out of   9312     3%  
+ Number of 4 input LUTs:                430  out of   9312     4%  
+    Number used as logic:               369
+    Number used as Shift registers:      61
+ Number of IOs:                          22
+ Number of bonded IOBs:                  22  out of    232     9%  
+ Number of BRAMs:                         5  out of     20    25%  
+ Number of GCLKs:                         5  out of     24    20%  
+ Number of DCMs:                          1  out of      4    25%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+----------------------------------------------------------------------+------------------------------------------------+-------+
+Clock Signal                                                          | Clock buffer(FF name)                          | Load  |
+----------------------------------------------------------------------+------------------------------------------------+-------+
+icon/U0/U_ICON/I_YES_BSCAN.U_BS/DRCK1                                 | BUFG                                           | 140   |
+icon/U0/iUPDATE_OUT                                                   | NONE(icon/U0/U_ICON/U_iDATA_CMD)               | 1     |
+CCLK                                                                  | IBUFG+BUFG                                     | 159   |
+icon/CONTROL0<13>(icon/U0/U_ICON/U_CTRL_OUT/F_NCP[0].F_CMD[9].U_LCE:O)| NONE(*)(ila/U0/I_NO_D.U_ILA/U_STAT/U_DIRTY_LDC)| 1     |
+CCLK                                                                  | instance_name/DCM_SP_INST:CLKDV                | 48    |
+spi_master/spisck1                                                    | BUFG                                           | 24    |
+----------------------------------------------------------------------+------------------------------------------------+-------+
+(*) This 1 clock signal(s) are generated by combinatorial logic,
+and XST is not able to identify which are the primary clock signals.
+Please use the CLOCK_SIGNAL constraint to specify the clock signal(s) generated by combinatorial logic.
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------+-------+
+Control Signal                                                                                   | Buffer(FF name)                                                                                                          | Load  |
+-------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------+-------+
+debounce_rst/sync_out(debounce_rst/sync_out:Q)                                                   | NONE(spi_master/chip_select)                                                                                             | 37    |
+ADCON_OBUF(XST_GND:G)                                                                            | NONE(debounce/count_0)                                                                                                   | 34    |
+icon/U0/U_ICON/U_CMD/iSEL_n(icon/U0/U_ICON/U_CMD/U_SEL_n:O)                                      | NONE(icon/U0/U_ICON/U_CMD/G_TARGET[10].I_NE0.U_TARGET)                                                                   | 10    |
+ila/N0(ila/XST_GND:G)                                                                            | NONE(ila/U0/I_NO_D.U_ILA/U_RST/U_POR)                                                                                    | 9     |
+icon/CONTROL0<20>(icon/U0/U_ICON/U_CTRL_OUT/F_NCP[0].F_CMD[0].U_HCE:O)                           | NONE(ila/U0/I_NO_D.U_ILA/U_TRIG/U_TM/G_NMU[0].U_M/U_MU/I_MUT_GAND.U_match/I_SRL16.U_GAND_SRL16/I_YES_IREG.F_TW[0].U_IREG)| 8     |
+ila/U0/I_NO_D.U_ILA/U_RST/U_ARM_XFER/iCLR(ila/U0/I_NO_D.U_ILA/U_RST/U_ARM_XFER/U_CLEAR:O)        | NONE(ila/U0/I_NO_D.U_ILA/U_RST/U_ARM_XFER/U_DOUT0)                                                                       | 4     |
+ila/U0/I_NO_D.U_ILA/U_RST/U_HALT_XFER/iCLR(ila/U0/I_NO_D.U_ILA/U_RST/U_HALT_XFER/U_CLEAR:O)      | NONE(ila/U0/I_NO_D.U_ILA/U_RST/U_HALT_XFER/U_DOUT0)                                                                      | 4     |
+ila/U0/I_NO_D.U_ILA/U_STAT/U_DSL1/iCLR(ila/U0/I_NO_D.U_ILA/U_STAT/U_DSL1/U_CLEAR:O)              | NONE(ila/U0/I_NO_D.U_ILA/U_STAT/U_DSL1/U_DOUT0)                                                                          | 4     |
+ila/U0/I_NO_D.U_ILA/iARM(ila/U0/I_NO_D.U_ILA/U_RST/U_ARM_XFER/U_GEN_DELAY[3].U_FD:Q)             | NONE(ila/U0/I_NO_D.U_ILA/U_STAT/U_DIRTY_FDCE)                                                                            | 2     |
+icon/CONTROL0<13>(icon/U0/U_ICON/U_CTRL_OUT/F_NCP[0].F_CMD[9].U_LCE:O)                           | NONE(ila/U0/I_NO_D.U_ILA/U_STAT/U_DIRTY_FDPE)                                                                            | 1     |
+icon/U0/U_ICON/iSEL_n(icon/U0/U_ICON/U_iSEL_n:O)                                                 | NONE(icon/U0/U_ICON/U_iDATA_CMD)                                                                                         | 1     |
+ila/U0/I_NO_D.U_ILA/U_STAT/ACTRESET_pulse(ila/U0/I_NO_D.U_ILA/U_STAT/U_RESET_EDGE/I_H2L.U_DOUT:Q)| NONE(ila/U0/I_NO_D.U_ILA/U_STAT/U_RISING)                                                                                | 1     |
+ila/U0/I_NO_D.U_ILA/iRESET<1>(ila/U0/I_NO_D.U_ILA/U_RST/G_RST[1].U_RST:Q)                        | NONE(ila/U0/I_NO_D.U_ILA/U_TRIG/U_TM/G_NMU[0].U_M/U_MU/I_OREG.I_YES_OREG.U_OREG)                                         | 1     |
+-------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 9.302ns (Maximum Frequency: 107.501MHz)
+   Minimum input arrival time before clock: 8.201ns
+   Maximum output required time after clock: 5.930ns
+   Maximum combinational path delay: 7.144ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'icon/U0/U_ICON/I_YES_BSCAN.U_BS/DRCK1'
+  Clock period: 9.302ns (frequency: 107.501MHz)
+  Total number of paths / destination ports: 2456 / 335
+-------------------------------------------------------------------------
+Delay:               9.302ns (Levels of Logic = 5)
+  Source:            icon/U0/U_ICON/U_CMD/G_TARGET[12].I_NE0.U_TARGET (FF)
+  Destination:       ila/U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_NO_TB.I_RT1.I_RDADDR/U_HC/G[13].U_FDRE (FF)
+  Source Clock:      icon/U0/U_ICON/I_YES_BSCAN.U_BS/DRCK1 rising
+  Destination Clock: icon/U0/U_ICON/I_YES_BSCAN.U_BS/DRCK1 rising
+
+  Data Path: icon/U0/U_ICON/U_CMD/G_TARGET[12].I_NE0.U_TARGET to ila/U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_NO_TB.I_RT1.I_RDADDR/U_HC/G[13].U_FDRE
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q            19   0.591   1.260  U0/U_ICON/U_CMD/G_TARGET[12].I_NE0.U_TARGET (U0/U_ICON/iCORE_ID<0>)
+     LUT4:I0->O           32   0.704   1.297  U0/U_ICON/U_CMD/U_CORE_ID_SEL/I4.FI[0].U_LUT (U0/U_ICON/iCORE_ID_SEL<0>)
+     LUT4:I2->O           15   0.704   1.021  U0/U_ICON/U_CTRL_OUT/F_NCP[0].F_CMD[10].U_LCE (CONTROL0<14>)
+     end scope: 'icon'
+     begin scope: 'ila'
+     LUT4:I3->O            4   0.704   0.762  U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_NO_TB.I_RT1.I_RDADDR/I_NI_GT_1.I3.U_LUT (U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_NO_TB.I_RT1.I_RDADDR/lowAddr_rst)
+     LUT2:I0->O           14   0.704   1.000  U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_NO_TB.I_RT1.I_RDADDR/I_NI_GT_1.U_highAddr_ce (U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_NO_TB.I_RT1.I_RDADDR/highAddr_ce)
+     FDRE:CE                   0.555          U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_NO_TB.I_RT1.I_RDADDR/U_HC/G[13].U_FDRE
+    ----------------------------------------
+    Total                      9.302ns (3.962ns logic, 5.340ns route)
+                                       (42.6% logic, 57.4% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'icon/U0/iUPDATE_OUT'
+  Clock period: 2.554ns (frequency: 391.543MHz)
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Delay:               2.554ns (Levels of Logic = 1)
+  Source:            icon/U0/U_ICON/U_iDATA_CMD (FF)
+  Destination:       icon/U0/U_ICON/U_iDATA_CMD (FF)
+  Source Clock:      icon/U0/iUPDATE_OUT rising
+  Destination Clock: icon/U0/iUPDATE_OUT rising
+
+  Data Path: icon/U0/U_ICON/U_iDATA_CMD to icon/U0/U_ICON/U_iDATA_CMD
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              3   0.591   0.531  U0/U_ICON/U_iDATA_CMD (U0/U_ICON/iDATA_CMD)
+     INV:I->O              1   0.704   0.420  U0/U_ICON/U_iDATA_CMD_n (U0/U_ICON/iDATA_CMD_n)
+     FDC:D                     0.308          U0/U_ICON/U_iDATA_CMD
+    ----------------------------------------
+    Total                      2.554ns (1.603ns logic, 0.951ns route)
+                                       (62.8% logic, 37.2% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'CCLK'
+  Clock period: 4.713ns (frequency: 212.179MHz)
+  Total number of paths / destination ports: 1454 / 398
+-------------------------------------------------------------------------
+Delay:               4.713ns (Levels of Logic = 2)
+  Source:            ila/U0/I_NO_D.U_ILA/U_RST/U_HALT_XFER/U_GEN_DELAY[1].U_FD (FF)
+  Destination:       ila/U0/I_NO_D.U_ILA/U_RST/G_RST[0].U_RST (FF)
+  Source Clock:      CCLK rising
+  Destination Clock: CCLK rising
+
+  Data Path: ila/U0/I_NO_D.U_ILA/U_RST/U_HALT_XFER/U_GEN_DELAY[1].U_FD to ila/U0/I_NO_D.U_ILA/U_RST/G_RST[0].U_RST
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q              2   0.591   0.622  U0/I_NO_D.U_ILA/U_RST/U_HALT_XFER/U_GEN_DELAY[1].U_FD (U0/I_NO_D.U_ILA/U_RST/HALT_pulse)
+     LUT3:I0->O            1   0.704   0.424  U0/I_NO_D.U_ILA/U_RST/U_PRST1 (U0/I_NO_D.U_ILA/U_RST/PRE_RESET1)
+     LUT4:I3->O            8   0.704   0.757  U0/I_NO_D.U_ILA/U_RST/U_PRST0 (U0/I_NO_D.U_ILA/U_RST/PRE_RESET0)
+     FDS:S                     0.911          U0/I_NO_D.U_ILA/U_RST/G_RST[0].U_RST
+    ----------------------------------------
+    Total                      4.713ns (2.910ns logic, 1.803ns route)
+                                       (61.7% logic, 38.3% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'icon/U0/U_ICON/I_YES_BSCAN.U_BS/DRCK1'
+  Total number of paths / destination ports: 185 / 161
+-------------------------------------------------------------------------
+Offset:              8.201ns (Levels of Logic = 5)
+  Source:            icon/U0/U_ICON/I_YES_BSCAN.U_BS/I_SPARTAN3.ISYN.I_USE_SOFTBSCAN_EQ0.I_3.U_BS:SHIFT (PAD)
+  Destination:       ila/U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_NO_TB.I_RT1.I_RDADDR/U_HC/G[13].U_FDRE (FF)
+  Destination Clock: icon/U0/U_ICON/I_YES_BSCAN.U_BS/DRCK1 rising
+
+  Data Path: icon/U0/U_ICON/I_YES_BSCAN.U_BS/I_SPARTAN3.ISYN.I_USE_SOFTBSCAN_EQ0.I_3.U_BS:SHIFT to ila/U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_NO_TB.I_RT1.I_RDADDR/U_HC/G[13].U_FDRE
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+    BSCAN_SPARTAN3:SHIFT    3   0.000   0.610  U0/U_ICON/I_YES_BSCAN.U_BS/I_SPARTAN3.ISYN.I_USE_SOFTBSCAN_EQ0.I_3.U_BS (U0/iSHIFT_OUT)
+     LUT2:I1->O           32   0.704   1.437  U0/U_ICON/U_CTRL_OUT/U_DATA_VALID (U0/U_ICON/U_CTRL_OUT/iDATA_VALID)
+     LUT4:I0->O           15   0.704   1.021  U0/U_ICON/U_CTRL_OUT/F_NCP[0].F_CMD[10].U_LCE (CONTROL0<14>)
+     end scope: 'icon'
+     begin scope: 'ila'
+     LUT4:I3->O            4   0.704   0.762  U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_NO_TB.I_RT1.I_RDADDR/I_NI_GT_1.I3.U_LUT (U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_NO_TB.I_RT1.I_RDADDR/lowAddr_rst)
+     LUT2:I0->O           14   0.704   1.000  U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_NO_TB.I_RT1.I_RDADDR/I_NI_GT_1.U_highAddr_ce (U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_NO_TB.I_RT1.I_RDADDR/highAddr_ce)
+     FDRE:CE                   0.555          U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_NO_TB.I_RT1.I_RDADDR/U_HC/G[13].U_FDRE
+    ----------------------------------------
+    Total                      8.201ns (3.371ns logic, 4.830ns route)
+                                       (41.1% logic, 58.9% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'CCLK'
+  Total number of paths / destination ports: 3 / 3
+-------------------------------------------------------------------------
+Offset:              2.786ns (Levels of Logic = 2)
+  Source:            SPIMISO (PAD)
+  Destination:       ila/U0/I_TQ0.G_TW[5].U_TQ (FF)
+  Destination Clock: CCLK rising
+
+  Data Path: SPIMISO to ila/U0/I_TQ0.G_TW[5].U_TQ
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            25   1.218   1.260  SPIMISO_IBUF (SPIMISO_IBUF)
+     begin scope: 'ila'
+     FDP:D                     0.308          U0/I_TQ0.G_TW[5].U_TQ
+    ----------------------------------------
+    Total                      2.786ns (1.526ns logic, 1.260ns route)
+                                       (54.8% logic, 45.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'spi_master/spisck1'
+  Total number of paths / destination ports: 24 / 24
+-------------------------------------------------------------------------
+Offset:              2.786ns (Levels of Logic = 1)
+  Source:            SPIMISO (PAD)
+  Destination:       spi_master/read_data_0 (FF)
+  Destination Clock: spi_master/spisck1 rising
+
+  Data Path: SPIMISO to spi_master/read_data_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            25   1.218   1.260  SPIMISO_IBUF (SPIMISO_IBUF)
+     FDCE:D                    0.308          spi_master/read_data_23
+    ----------------------------------------
+    Total                      2.786ns (1.526ns logic, 1.260ns route)
+                                       (54.8% logic, 45.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'CCLK'
+  Total number of paths / destination ports: 5 / 3
+-------------------------------------------------------------------------
+Offset:              5.822ns (Levels of Logic = 2)
+  Source:            spi_master/send_count_0 (FF)
+  Destination:       SPIMOSI (PAD)
+  Source Clock:      CCLK rising 0.1X
+
+  Data Path: spi_master/send_count_0 to SPIMOSI
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDPE:C->Q             5   0.591   0.808  spi_master/send_count_0 (spi_master/send_count_0)
+     LUT3:I0->O            2   0.704   0.447  spi_master/Mrom__COND_311 (SPIMOSI_OBUF)
+     OBUF:I->O                 3.272          SPIMOSI_OBUF (SPIMOSI)
+    ----------------------------------------
+    Total                      5.822ns (4.567ns logic, 1.255ns route)
+                                       (78.4% logic, 21.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'spi_master/spisck1'
+  Total number of paths / destination ports: 24 / 8
+-------------------------------------------------------------------------
+Offset:              5.930ns (Levels of Logic = 3)
+  Source:            spi_master/read_data_0 (FF)
+  Destination:       LED0 (PAD)
+  Source Clock:      spi_master/spisck1 rising
+
+  Data Path: spi_master/read_data_0 to LED0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q             2   0.591   0.622  spi_master/read_data_0 (spi_master/read_data_0)
+     LUT3:I0->O            1   0.704   0.000  spi_mux/Mmux_LED22 (spi_mux/Mmux_LED21)
+     MUXF5:I0->O           1   0.321   0.420  spi_mux/Mmux_LED2_f5 (LED0_OBUF)
+     OBUF:I->O                 3.272          LED0_OBUF (LED0)
+    ----------------------------------------
+    Total                      5.930ns (4.888ns logic, 1.042ns route)
+                                       (82.4% logic, 17.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'icon/U0/U_ICON/I_YES_BSCAN.U_BS/DRCK1'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              0.591ns (Levels of Logic = 0)
+  Source:            icon/U0/U_ICON/U_TDO_reg (FF)
+  Destination:       icon/U0/U_ICON/I_YES_BSCAN.U_BS/I_SPARTAN3.ISYN.I_USE_SOFTBSCAN_EQ0.I_3.U_BS:TDO1 (PAD)
+  Source Clock:      icon/U0/U_ICON/I_YES_BSCAN.U_BS/DRCK1 rising
+
+  Data Path: icon/U0/U_ICON/U_TDO_reg to icon/U0/U_ICON/I_YES_BSCAN.U_BS/I_SPARTAN3.ISYN.I_USE_SOFTBSCAN_EQ0.I_3.U_BS:TDO1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q              0   0.591   0.000  U0/U_ICON/U_TDO_reg (U0/U_ICON/iTDO)
+    BSCAN_SPARTAN3:TDO1        0.000          U0/U_ICON/I_YES_BSCAN.U_BS/I_SPARTAN3.ISYN.I_USE_SOFTBSCAN_EQ0.I_3.U_BS
+    ----------------------------------------
+    Total                      0.591ns (0.591ns logic, 0.000ns route)
+                                       (100.0% logic, 0.0% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 24 / 8
+-------------------------------------------------------------------------
+Delay:               7.144ns (Levels of Logic = 4)
+  Source:            SW0 (PAD)
+  Destination:       LED0 (PAD)
+
+  Data Path: SW0 to LED0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            16   1.218   1.209  SW0_IBUF (SW0_IBUF)
+     LUT2:I0->O            1   0.704   0.000  spi_mux/Mmux_LED81 (spi_mux/Mmux_LED8)
+     MUXF5:I1->O           1   0.321   0.420  spi_mux/Mmux_LED8_f5 (LED3_OBUF)
+     OBUF:I->O                 3.272          LED3_OBUF (LED3)
+    ----------------------------------------
+    Total                      7.144ns (5.515ns logic, 1.629ns route)
+                                       (77.2% logic, 22.8% route)
+
+=========================================================================
+WARNING:Xst:616 - Invalid property "SYN_BLACK_BOX 1": Did not attach to icon.
+WARNING:Xst:616 - Invalid property "SYN_NOPRUNE 1": Did not attach to icon.
+WARNING:Xst:616 - Invalid property "SYN_BLACK_BOX 1": Did not attach to ila.
+WARNING:Xst:616 - Invalid property "SYN_NOPRUNE 1": Did not attach to ila.
+
+
+Total REAL time to Xst completion: 11.00 secs
+Total CPU time to Xst completion: 10.48 secs
+ 
+--> 
+
+Total memory usage is 246384 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   13 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+

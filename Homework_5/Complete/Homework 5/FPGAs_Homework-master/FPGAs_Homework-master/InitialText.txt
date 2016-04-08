@@ -1,0 +1,8 @@
+This is my first commit/push to my created repository on Github.com. 
+
+The computer this is setup on is my personal laptop. I am running git shell to push and pull from origin
+
+I set the origin url as 
+https://github.com/KommonO/FPGAs_Homework.git
+
+The git location on the computer is /Desktop/Spring 2016/FPGAs/FPGAs_Homework
